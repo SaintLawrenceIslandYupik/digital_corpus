@@ -1,0 +1,22 @@
+MANGTEGHAPIK	Winter House
+1.	Tullumget	Front roof supports
+2.	Ighulin	Temporary roof support
+3.	Ighulut	Back roof supports
+4.	Ranmet	Roof support plate
+5.	Mingla	Outside wall
+6.	Kennaatak	Stove
+7.	Amik	Door
+8.	Siinu	Pantry
+9.	Tuusaq	Post base
+10.	Aghveghaqetaq	Main support post
+11.	Ingleghtaq	Base for sleeping area
+12.	Suugernget	Reindeer hide curtain
+13.	Ketet	Sleeping area entrance
+14.	Kenghwaq	Night lamp (seal oil)
+15.	Siinu	Storage area
+16.	Akmagutak	Keg for clothing
+17.	Allighat	Reindeer-skin bedding
+18.	Veget	Grass insulation
+19.	Puyuq	Smoke, steam, soot
+20.	Iiyaq	Vent to outside
+21.	Aagram iiyaa	Sleeping area vent
