@@ -1,3 +1,8 @@
-*.ess_content linguist-detectable=true linguist-language=Text
+*.ess_content linguist-detectable=true 
+*.eng_content linguist-detectable=true
 *.ess_titlepage linguist-detectable=true
+*.eng_titlepage linguist-detectable=true
+*.ess_content linguist-language=Text
+*.eng_content linguist-language=Text
 *.ess_titlepage linguist-language=Text
+*.eng_titlepage linguist-language=Text
