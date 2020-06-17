@@ -12,7 +12,7 @@ MANGTEGHAPIK	Winter House
 11.	Ingleghtaq	Base for sleeping area
 12.	Suugernget	Reindeer hide curtain
 13.	Ketet	Sleeping area entrance
-14.	Kenghwaq	Night lamp ( seal oil)
+14.	Kenghwaq	Night lamp ( seal oil )
 15.	Siinu	Storage area
 16.	Akmagutak	Keg for clothing
 17.	Allighat	Reindeer-skin bedding
