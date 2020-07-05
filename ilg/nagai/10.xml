@@ -1,0 +1,711 @@
+<xigt-corpus id="WaghiyiNagai2001">
+  <metadata>
+    <meta type="language" name="St. Lawrence Island Yupik" iso-689-3="ess" tiers="essSentence orthographicWords phonemicWordsAPA phonemicWordsIPA underlyingWordsAPA underlyingWordsIPA" />
+    <meta type="language" iso-689-3="eng" name="English" tiers="engTranslation glossedWords" />
+    <meta type="author">Della Waghiyi</meta>
+    <meta type="author">Kayo Nagai</meta>
+    <meta id="WaghiyiNagai2001" type="source">Mrs. Della Waghiyi's St. Lawrence Island Yupik Texts with Grammatical Analysis by Kayo Nagai. Dec 2001. Endangered Languages of the Pacific Rim Publication Series A2-006. ISSN 1346-082X.</meta>
+    <meta type="comment">The orthographicWords tier contains Yupik words in the St. Lawrence Island Yupik orthography with morpheme boundaries marked by dashes.</meta>
+    <meta type="comment">The phonemicWordsAPA tier contains Yupik words represented using an Americanist phonetic alphabet (APA) notation with morpheme boundaries marked by dashes.</meta>
+    <meta type="comment">The phonemicWordsIPA tier contains Yupik words represented using the International Phonetic Alphabet (IPA) notation with morpheme boundaries marked by dashes.</meta>
+    <meta type="comment">In some cases, an interlinear gloss in the text presents an underlying lexical phonemic representation for a Yupik word that differs from that presented in the phonemicWordsAPA tier. In such cases, the underlyingWordsAPA tier contains such underlying forms in APA notation with morpheme boundaries marked by dashes.</meta>
+    <meta type="comment">In some cases, an interlinear gloss in the text presents an underlying lexical phonemic representation for a Yupik word that differs from that presented in the phonemicWordsIPA tier. In such cases, the underlyingWordsIPA tier contains such underlying forms in IPA notation with morpheme boundaries marked by dashes.</meta>
+    <meta type="version">0.0.3</meta>
+  </metadata>
+  <igt id="WaghiyiNagai2001.t10.s00">
+    <tier id="WaghiyiNagai2001.t10.s00.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s00.ow01">Imlaa-ngiighha-a-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s00.pwa01">imlaa-ŋiix̣a-a-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s00.pwi01">imlaa-ŋiiχa-a-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s00.uwa01" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s00.uwi01" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s00.gw01">unborn.seal.pup-DIM-EV-ABS.pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s00.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s00.eng01">Unborn seal pups</item>
+      <item id="WaghiyiNagai2001.t10.s00.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s01">
+    <tier id="WaghiyiNagai2001.t10.s01.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s01.ow01">imlaa-ngiighha-a-s</item>
+      <item id="WaghiyiNagai2001.t10.s01.ow02">ta-maa-ku-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s01.pwa01">imlaa-ŋiix̣a-a-s</item>
+      <item id="WaghiyiNagai2001.t10.s01.pwa02">ta-maa-ku-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s01.pwi01">imlaa-ŋiiχa-a-s</item>
+      <item id="WaghiyiNagai2001.t10.s01.pwi02">ta-maa-ku-t</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s01.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s01.uwa02" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s01.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s01.uwi02" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s01.gw01">unborn.seal.pup-DIM-EV-ABS.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s01.gw02">ANP-DEM-EXP-ABS.pl.(those.ones)</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s01.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s01.eng01">Those little unborn seal pups.</item>
+      <item id="WaghiyiNagai2001.t10.s01.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s02">
+    <tier id="WaghiyiNagai2001.t10.s02.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s02.ow01">afta-naq-ne-mteki</item>
+      <item id="WaghiyiNagai2001.t10.s02.ow02">maana</item>
+      <item id="WaghiyiNagai2001.t10.s02.ow03">tamlu-ngiighhi-itgun</item>
+      <item id="WaghiyiNagai2001.t10.s02.ow04">seg-lluki</item>
+      <item id="WaghiyiNagai2001.t10.s02.ow05">teke-mnneng</item>
+      <item id="WaghiyiNagai2001.t10.s02.ow06">nayug-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s02.pwa01">afta-naq-n̥ə-mtəki</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwa02">maana</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwa03">tamlu-ŋiix̣i-itxun</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwa04">səx-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwa05">təkə-mn̥əŋ</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwa06">nayuɣ-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s02.pwi01">afta-naq-n̥ə-mtəki</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwi02">maana</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwi03">tamlu-ŋiiχi-itxun</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwi04">səx-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwi05">təkə-mn̥əŋ</item>
+      <item id="WaghiyiNagai2001.t10.s02.pwi06">nayuɣ-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s02.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s02.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s02.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s02.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s02.uwa05" />
+      <item id="WaghiyiNagai2001.t10.s02.uwa06" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s02.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s02.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s02.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s02.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s02.uwi05" />
+      <item id="WaghiyiNagai2001.t10.s02.uwi06" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s02.gw01">butcher-PSP-CON.whenever-1pl.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s02.gw02">well(PCL)</item>
+      <item id="WaghiyiNagai2001.t10.s02.gw03">chin-DIM-PRL.3pl.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s02.gw04">cut.open-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s02.gw05">index.finger-ABM.1pl.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s02.gw06">skin-SRD.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s02.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s02.eng01">When we are going to butcher them, we cut open the bodies through their little chins, and skin them with our index fingers.</item>
+      <item id="WaghiyiNagai2001.t10.s02.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s03">
+    <tier id="WaghiyiNagai2001.t10.s03.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s03.ow01">maana</item>
+      <item id="WaghiyiNagai2001.t10.s03.ow02">amiiraa-ghhi-i</item>
+      <item id="WaghiyiNagai2001.t10.s03.ow03">ghhatagh-lluki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s03.pwa01">maana</item>
+      <item id="WaghiyiNagai2001.t10.s03.pwa02">amiiraa-x̣i-i</item>
+      <item id="WaghiyiNagai2001.t10.s03.pwa03">x̣atax̣-ɬuki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s03.pwi01">maana</item>
+      <item id="WaghiyiNagai2001.t10.s03.pwi02">amiiraa-χi-i</item>
+      <item id="WaghiyiNagai2001.t10.s03.pwi03">χataχ-ɬuki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s03.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s03.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s03.uwa03">x̣atax̣-tə+luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s03.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s03.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s03.uwi03">χataχ-tə+luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s03.gw01">well(PCL)</item>
+      <item id="WaghiyiNagai2001.t10.s03.gw02">skin-DIM-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s03.gw03">lift.from.the.surface-P-SRD.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s03.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s03.eng01">Uh... we lift up the skins from their bodies.</item>
+      <item id="WaghiyiNagai2001.t10.s03.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s04">
+    <tier id="WaghiyiNagai2001.t10.s04.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s04.ow01">ta-ag-ken</item>
+      <item id="WaghiyiNagai2001.t10.s04.ow02">ghhuugh-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s04.pwa01">ta-ax-kən</item>
+      <item id="WaghiyiNagai2001.t10.s04.pwa02">x̣uuɣ̇-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s04.pwi01">ta-ax-kən</item>
+      <item id="WaghiyiNagai2001.t10.s04.pwi02">χuuʁ-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s04.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s04.uwa02" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s04.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s04.uwi02" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s04.gw01">ANP-DEM-ABM.(then)</item>
+      <item id="WaghiyiNagai2001.t10.s04.gw02">inflate-GEN-IND.1pl.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s04.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s04.eng01">And then we blow them up (between the skin and the body).</item>
+      <item id="WaghiyiNagai2001.t10.s04.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s05">
+    <tier id="WaghiyiNagai2001.t10.s05.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s05.ow01">ghhuu-ne-mteki</item>
+      <item id="WaghiyiNagai2001.t10.s05.ow02">legan</item>
+      <item id="WaghiyiNagai2001.t10.s05.ow03">amiiri-i</item>
+      <item id="WaghiyiNagai2001.t10.s05.ow04">ghhatagh-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s05.ow05">yugusi-meggneng</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s05.pwa01">x̣uu-nə-mtəki</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwa02">ləɣan</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwa03">amiiri-i</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwa04">x̣ataɣ̇-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwa05">yuɣusi-məxn̥əŋ</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s05.pwi01">χuu-nə-mtəki</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwi02">ləɣan</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwi03">amiiri-i</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwi04">χataʁ-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s05.pwi05">yuɣusi-məxn̥əŋ</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s05.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s05.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s05.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s05.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s05.uwa05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s05.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s05.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s05.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s05.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s05.uwi05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s05.gw01">inflate-CON.whenever-1pl.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s05.gw02">then(PCL)</item>
+      <item id="WaghiyiNagai2001.t10.s05.gw03">skin-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s05.gw04">lift.from.the.surface-GEN-IND.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s05.gw05">carcass-ABM.3Rpl.pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s05.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s05.eng01">After we blow them up, then, the skins lift from their bodies.</item>
+      <item id="WaghiyiNagai2001.t10.s05.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s06">
+    <tier id="WaghiyiNagai2001.t10.s06.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s06.ow01">itega-ghha-aneng</item>
+      <item id="WaghiyiNagai2001.t10.s06.ow02">iigga-ghha-aneng</item>
+      <item id="WaghiyiNagai2001.t10.s06.ow03">ghhuu-ghwaagh-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s06.pwa01">itəɣa-x̣a-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s06.pwa02">iixa-x̣a-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s06.pwa03">x̣uu-ɣ̇ʷaaɣ̇-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s06.pwi01">itəɣa-χa-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s06.pwi02">iixa-χa-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s06.pwi03">χuu-ʁʷaaʁ-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s06.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s06.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s06.uwa03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s06.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s06.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s06.uwi03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s06.gw01">foot-DIM-ABM.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s06.gw02">hand-DIM-ABM.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s06.gw03">inflate-thoroughly-SRD.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s06.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s06.eng01">From the little flippers and hands, we inflate them.</item>
+      <item id="WaghiyiNagai2001.t10.s06.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s07">
+    <tier id="WaghiyiNagai2001.t10.s07.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s07.ow01">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s07.ow02">uki-ma-llgh-i</item>
+      <item id="WaghiyiNagai2001.t10.s07.ow03">qillegh-lluki</item>
+      <item id="WaghiyiNagai2001.t10.s07.ow04">naasqw-akun</item>
+      <item id="WaghiyiNagai2001.t10.s07.ow05">sev-lugh-akun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s07.pwa01">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwa02">uki-ma-ɬx̣-i</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwa03">qiɬəx̣-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwa04">naasqw-akun</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwa05">səv-luɣ̇-akun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s07.pwi01">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwi02">uki-ma-ɬχ-i</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwi03">qiɬəχ-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwi04">naasqw-akun</item>
+      <item id="WaghiyiNagai2001.t10.s07.pwi05">səv-luʁ-akun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s07.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s07.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s07.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s07.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s07.uwa05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s07.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s07.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s07.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s07.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s07.uwi05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s07.gw01">ANP-DEM-EXP-ABS.pl.(those.ones)</item>
+      <item id="WaghiyiNagai2001.t10.s07.gw02">get.hole-PRF-NCL-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s07.gw03">tie-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s07.gw04">head-PRL.3sg.sg.</item>
+      <item id="WaghiyiNagai2001.t10.s07.gw05">cut-DIM-PRL.3sg.sg.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s07.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s07.eng01">We tie those holes on the head that was ripped a little.</item>
+      <item id="WaghiyiNagai2001.t10.s07.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s08">
+    <tier id="WaghiyiNagai2001.t10.s08.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s08.ow01">qillegh-lluki</item>
+      <item id="WaghiyiNagai2001.t10.s08.ow02">lli-iq-aput</item>
+      <item id="WaghiyiNagai2001.t10.s08.ow03">nategh-mun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s08.pwa01">qiɬəx̣-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s08.pwa02">ɬi-iq-aput</item>
+      <item id="WaghiyiNagai2001.t10.s08.pwa03">natəɣ̇-mun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s08.pwi01">qiɬəχ-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s08.pwi02">ɬi-iq-aput</item>
+      <item id="WaghiyiNagai2001.t10.s08.pwi03">natəʁ-mun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s08.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s08.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s08.uwa03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s08.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s08.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s08.uwi03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s08.gw01">tie-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s08.gw02">put-GEN-IND.1pl.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s08.gw03">storm.shed-ALL.sg.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s08.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s08.eng01">After we tie them, we place them in the storm shed.</item>
+      <item id="WaghiyiNagai2001.t10.s08.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s09">
+    <tier id="WaghiyiNagai2001.t10.s09.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s09.ow01">legan</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow02">melqw-i</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow03">kiingh-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow04">ghhata-magh-meng</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow05">amiira-s</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow06">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s09.ow07">yugusi-meggneng</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s09.pwa01">ləɣan</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa02">məlqw-i</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa03">kiinɣ̇-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa04">x̣ata-maɣ̇-məŋ</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa05">amiira-s</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa06">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwa07">yuɣusi-məxn̥əŋ</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s09.pwi01">ləɣan</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi02">məlqw-i</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi03">kiinʁ-aq-ut</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi04">χata-maʁ-məŋ</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi05">amiira-s</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi06">ta-a-ku-t</item>
+      <item id="WaghiyiNagai2001.t10.s09.pwi07">yuɣusi-məxn̥əŋ</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s09.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa05" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa06" />
+      <item id="WaghiyiNagai2001.t10.s09.uwa07" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s09.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi05" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi06" />
+      <item id="WaghiyiNagai2001.t10.s09.uwi07" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s09.gw01">then(PCL)</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw02">fur-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw03">dry-GEN-IND.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw04">lift.from.the.surface-CON.stative-3Rpl.</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw05">skin-ABS.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw06">ANP-DEM-EXP-ABS.pl.(those.ones)</item>
+      <item id="WaghiyiNagai2001.t10.s09.gw07">carcass-ABM.3Rpl.pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s09.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s09.eng01">Their furs just dry up and those skins (get off) from the upper back part of their bodies.</item>
+      <item id="WaghiyiNagai2001.t10.s09.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s10">
+    <tier id="WaghiyiNagai2001.t10.s10.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s10.ow01">ghhata-ngh-ata</item>
+      <item id="WaghiyiNagai2001.t10.s10.ow02">qafsina-neng</item>
+      <item id="WaghiyiNagai2001.t10.s10.ow03">qavagh-qugh-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s10.pwa01">x̣ata-nɣ̇-ata</item>
+      <item id="WaghiyiNagai2001.t10.s10.pwa02">qafsina-nəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s10.pwa03">qavax̣-quɣ̇-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s10.pwi01">χata-nʁ-ata</item>
+      <item id="WaghiyiNagai2001.t10.s10.pwi02">qafsina-nəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s10.pwi03">qavaχ-quʁ-luki</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s10.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s10.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s10.uwa03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s10.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s10.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s10.uwi03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s10.gw01">lift.from.the.surface-CON.whenever-3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s10.gw02">how.many-ABM.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s10.gw03">sleep-repeadtedly-SRD.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s10.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s10.eng01">When they get off, we leave them there for days.</item>
+      <item id="WaghiyiNagai2001.t10.s10.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s11">
+    <tier id="WaghiyiNagai2001.t10.s11.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s11.ow01">ghhata-ngh-ata</item>
+      <item id="WaghiyiNagai2001.t10.s11.ow02">itgh-u-lluki</item>
+      <item id="WaghiyiNagai2001.t10.s11.ow03">afta-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s11.pwa01">x̣ata-nɣ̇-ata</item>
+      <item id="WaghiyiNagai2001.t10.s11.pwa02">itx̣-u-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s11.pwa03">afta-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s11.pwi01">χata-nʁ-ata</item>
+      <item id="WaghiyiNagai2001.t10.s11.pwi02">itχ-u-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s11.pwi03">afta-aq-aput</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s11.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s11.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s11.uwa03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s11.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s11.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s11.uwi03" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s11.gw01">lift.from.the.surface-CON.whenever-3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s11.gw02">go.in-P-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s11.gw03">butcher-GEN-IND.1pl.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s11.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s11.eng01">After the skins get off, we bring them in and butcher them.</item>
+      <item id="WaghiyiNagai2001.t10.s11.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s12">
+    <tier id="WaghiyiNagai2001.t10.s12.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s12.ow01">afta-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.ow02">sev-lu-ghhwa-aneng</item>
+      <item id="WaghiyiNagai2001.t10.s12.ow03">uug-ken</item>
+      <item id="WaghiyiNagai2001.t10.s12.ow04">qapi-qeltagh-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.ow05">naasqw-i</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s12.pwa01">afta-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwa02">səv-lu-x̣ʷa-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwa03">uux-kən</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwa04">qapi-qəɬtaɣ̇-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwa05">naasqw-i</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s12.pwi01">afta-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwi02">səv-lu-χʷa-anəŋ</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwi03">uux-kən</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwi04">qapi-qəɬtaʁ-luki</item>
+      <item id="WaghiyiNagai2001.t10.s12.pwi05">naasqw-i</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s12.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s12.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s12.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s12.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s12.uwa05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s12.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s12.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s12.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s12.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s12.uwi05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s12.gw01">butcher-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s12.gw02">cut-DIM-DIM-ABM.3sg.sg.</item>
+      <item id="WaghiyiNagai2001.t10.s12.gw03">DEM-ABM.(from.down.there)</item>
+      <item id="WaghiyiNagai2001.t10.s12.gw04">skin-litte.by.little-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s12.gw05">head-ABS.3sg.pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s12.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s12.eng01">We skin them from the rip over the little head.</item>
+      <item id="WaghiyiNagai2001.t10.s12.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s13">
+    <tier id="WaghiyiNagai2001.t10.s13.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s13.ow01">uuls-imi-ita</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s13.pwa01">uuɬs-imi-ita</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s13.pwi01">uuɬs-imi-ita</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s13.uwa01" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s13.uwi01" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s13.gw01">turn.inside.out-CON.stative-3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s13.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s13.eng01">We also turn the skins inside out.</item>
+      <item id="WaghiyiNagai2001.t10.s13.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s14">
+    <tier id="WaghiyiNagai2001.t10.s14.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s14.ow01">ighneghwaa-ghhi-i</item>
+      <item id="WaghiyiNagai2001.t10.s14.ow02">estugh-itneng</item>
+      <item id="WaghiyiNagai2001.t10.s14.ow03">qepugh-luki</item>
+      <item id="WaghiyiNagai2001.t10.s14.ow04">iigg-i=llu</item>
+      <item id="WaghiyiNagai2001.t10.s14.ow05">itegi-i=llu</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s14.pwa01">iɣ̇nəɣ̇ʷaa-x̣i-i</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwa02">əstuɣ̇-itn̥əŋ</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwa03">qəpuɣ̇-luki</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwa04">iix-i=ɬu</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwa05">itəɣi-i=ɬu</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s14.pwi01">iʁnəʁʷaa-χi-i</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwi02">əstuʁ-itn̥əŋ</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwi03">qəpuʁ-luki</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwi04">iix-i=ɬu</item>
+      <item id="WaghiyiNagai2001.t10.s14.pwi05">itəɣi-i=ɬu</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s14.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s14.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s14.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s14.uwa04" />
+      <item id="WaghiyiNagai2001.t10.s14.uwa05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s14.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s14.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s14.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s14.uwi04" />
+      <item id="WaghiyiNagai2001.t10.s14.uwi05" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s14.gw01">finger-DIM-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s14.gw02">nail-ABM.3pl.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s14.gw03">squeeze-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s14.gw04">hand-ABS.3sg.pl.=also</item>
+      <item id="WaghiyiNagai2001.t10.s14.gw05">foot-ABS.3sg.pl.=also</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s14.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s14.eng01">We skin the little fingers by squeezing them from their nails and also the hands and flippers.</item>
+      <item id="WaghiyiNagai2001.t10.s14.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s15">
+    <tier id="WaghiyiNagai2001.t10.s15.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s15.ow01">uus-luki</item>
+      <item id="WaghiyiNagai2001.t10.s15.ow02">sata-ngi</item>
+      <item id="WaghiyiNagai2001.t10.s15.ow03">qaas-ka-q-luki</item>
+      <item id="WaghiyiNagai2001.t10.s15.ow04">kevigh-aq-iit</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s15.pwa01">uus-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwa02">sata-ŋi</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwa03">qaas-ka-q-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwa04">kəviɣ̇-aq-iit</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s15.pwi01">uus-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwi02">sata-ŋi</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwi03">qaas-ka-q-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s15.pwi04">kəviʁ-aq-iit</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s15.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s15.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s15.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s15.uwa04" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s15.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s15.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s15.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s15.uwi04" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s15.gw01">turn.inside.out-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s15.gw02">skin.side.of.pelt-ABS.3sg.pl.</item>
+      <item id="WaghiyiNagai2001.t10.s15.gw03">top-RCL-CAU-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s15.gw04">stuff-GEN-IND.3pl.3pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s15.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s15.eng01">They turn the poke inside out and make the skin side out, and stuff it with something (like grass).</item>
+      <item id="WaghiyiNagai2001.t10.s15.eng02" />
+    </tier>
+  </igt>
+  <igt id="WaghiyiNagai2001.t10.s16">
+    <tier id="WaghiyiNagai2001.t10.s16.ow" type="orthographicWords">
+      <item id="WaghiyiNagai2001.t10.s16.ow01">kevigh-luki</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow02">taaq-negh-megteki</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow03">nategh-mun</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow04">ategh-lluki</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow05">kine-ngllagh-aq-iit</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow06">kenlanga</item>
+      <item id="WaghiyiNagai2001.t10.s16.ow07">kine-llgh-itnun</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.pwa" type="phonemicWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s16.pwa01">kəviɣ̇-luki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa02">taaq-n̥əɣ̇-məxtəki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa03">natəɣ̇-mun</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa04">atəx̣-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa05">kinə-ŋɬaɣ̇-aq-iit</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa06">kənlaŋa</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwa07">kinə-ɬx̣-itn̥un</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.pwi" type="phonemicWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s16.pwi01">kəviʁ-luki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi02">taaq-n̥əʁ-məxtəki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi03">natəʁ-mun</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi04">atəχ-ɬuki</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi05">kinə-ŋɬaʁ-aq-iit</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi06">kənlaŋa</item>
+      <item id="WaghiyiNagai2001.t10.s16.pwi07">kinə-ɬχ-itn̥un</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.uwa" type="underlyingWordsAPA">
+      <item id="WaghiyiNagai2001.t10.s16.uwa01" />
+      <item id="WaghiyiNagai2001.t10.s16.uwa02" />
+      <item id="WaghiyiNagai2001.t10.s16.uwa03" />
+      <item id="WaghiyiNagai2001.t10.s16.uwa04">atəɣ̇-tə+luki</item>
+      <item id="WaghiyiNagai2001.t10.s16.uwa05" />
+      <item id="WaghiyiNagai2001.t10.s16.uwa06" />
+      <item id="WaghiyiNagai2001.t10.s16.uwa07" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.uwi" type="underlyingWordsIPA">
+      <item id="WaghiyiNagai2001.t10.s16.uwi01" />
+      <item id="WaghiyiNagai2001.t10.s16.uwi02" />
+      <item id="WaghiyiNagai2001.t10.s16.uwi03" />
+      <item id="WaghiyiNagai2001.t10.s16.uwi04">atəʁ-tə+luki</item>
+      <item id="WaghiyiNagai2001.t10.s16.uwi05" />
+      <item id="WaghiyiNagai2001.t10.s16.uwi06" />
+      <item id="WaghiyiNagai2001.t10.s16.uwi07" />
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.gw" type="glossedWords">
+      <item id="WaghiyiNagai2001.t10.s16.gw01">stuff-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw02">finish-CON.whenever-3Rpl.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw03">entry.room.of.old.style.house-ALL.sg.</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw04">go.down-P-SRD.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw05">dry-make-GEN-IND.3pl.3pl.</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw06">until(PCL)</item>
+      <item id="WaghiyiNagai2001.t10.s16.gw07">dry-GER-ABS.3pl.pl.</item>
+    </tier>
+    <tier id="WaghiyiNagai2001.t10.s16.eng" type="engTranslation">
+      <item id="WaghiyiNagai2001.t10.s16.eng01">After they stuff them, they bring them out to the entry room and dry them until they get dry.</item>
+      <item id="WaghiyiNagai2001.t10.s16.eng02" />
+    </tier>
+  </igt>
+</xigt-corpus>
