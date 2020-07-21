@@ -58,6 +58,19 @@ This version incorporates changes made after the release of version 0.0.2 on 21 
   - For numeric lists that include a period after the number, the format should be as follows:
     - Number followed by space followed by the period (if there is one) followed by a newline
 
+- Whitespace
+  - The CARRIAGE RETURN character (U+000D) should not be used.
+  - Each line should end with a single LINE FEED (LF) character (U+000A)
+  - Between paragraphs there should be a blank line, consisting only of a single LINE FEED (LF) character (U+000A)
+  - The CHARACTER TABULATION (tab) character (U+0009) should not be used.
+    - If a tab occurs as part of formatting, it should be either deleted, replaced with a single SPACE character (U+0020), or replaced with a single LINE FEED (LF) character (U+000A)
+  - There should never be multiple SPACE (U+0020) characters in sequence. If this happens, replace with a single SPACE character (U+0020).
+  - There should never be a SPACE (U+0020) character at the beginning or end of a line. If this happens, delete it.
+
+- Scanning errors
+  - Whenever it is not possible to determine the correct identity of a character (usually because of scanning errors), do your best to estimate the number of missing characters, and replace each one with the following:
+    - WHITE SQUARE (U+25A1)
+
 - Punctuation should generally be isolated by whitespace, with the following exceptions:
   - These two characters may be used within a word:
     - MODIFIER LETTER APOSTROPHE (U+02BC)
