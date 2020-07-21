@@ -77,7 +77,7 @@ This version incorporates changes made after the release of version 0.0.2 on 21 
     - HYPHEN-MINUS (U+002D)
   - This character may be used at the beginning of a monetary expression if immediately followed by a digit
     - DOLLAR SIGN (U+0024)
-  - This characters may be used as part of a monetary or numeric expression to separate two digits:
+  - This character may be used as part of a monetary or numeric expression to separate two digits:
     - COMMA (U+002C)
   - This character may be used as part of a monetary or numeric expression as a decimal point:
     - FULL STOP (U+002E)
