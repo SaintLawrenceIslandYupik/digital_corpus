@@ -18,6 +18,11 @@ This version incorporates changes made after the release of version 0.0.3 on 21 
 - Content in other directories has not been tokenized.
 
 
+## Character histogram
+
+Run `make ess.character_histogram` to obtain a histogram of the characters in the Yupik corpus.
+
+
 ## Conventions
 
 - Double-quotation marks 
