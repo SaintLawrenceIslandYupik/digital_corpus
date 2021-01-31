@@ -7,7 +7,9 @@ If you agree to these conditions, you may access this resource under the terms o
 
 ## Version
 
-This is version 0.1.0 of the St. Lawrence Island Yupik digital corpus.
+This is the development version of the St. Lawrence Island Yupik digital corpus.
+
+This version incorporates changes made after the release of version 0.1.0 on 31 January 2021.
 
 
 ## Tokenization Status
