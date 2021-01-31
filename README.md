@@ -63,6 +63,9 @@ Run `make ess.character_histogram` to obtain a histogram of the characters in th
   - For numeric lists that include a period after the number, the format should be as follows:
     - Number followed by space followed by the period (if there is one) followed by a newline
 
+- Section sign
+  - Use SECTION SIGN (U+00A7) to mark start of a Bible verse.
+
 - Whitespace
   - The CARRIAGE RETURN character (U+000D) should not be used.
   - Each line should end with a single LINE FEED (LF) character (U+000A)
