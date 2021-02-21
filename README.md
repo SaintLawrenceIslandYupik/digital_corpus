@@ -9,7 +9,7 @@ If you agree to these conditions, you may access this resource under the terms o
 
 This is the development version of the St. Lawrence Island Yupik digital corpus.
 
-This version incorporates changes made after the release of version 0.0.3 on 21 July 2020.
+This version incorporates changes made after the release of version 0.1.0 on 31 January 2021.
 
 
 ## Tokenization Status
@@ -62,6 +62,9 @@ Run `make ess.character_histogram` to obtain a histogram of the characters in th
 - Numeric lists
   - For numeric lists that include a period after the number, the format should be as follows:
     - Number followed by space followed by the period (if there is one) followed by a newline
+
+- Section sign
+  - Use SECTION SIGN (U+00A7) to mark start of a Bible verse.
 
 - Whitespace
   - The CARRIAGE RETURN character (U+000D) should not be used.
