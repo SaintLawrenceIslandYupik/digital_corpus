@@ -22,6 +22,9 @@ This version incorporates changes made after the release of version 0.1.0 on 31 
 
 Run `make ess.character_histogram` to obtain a histogram of the characters in the Yupik corpus.
 
+## Video
+
+A video description of this corpus is available at https://www.youtube.com/watch?v=Vf2DD-36oxs
 
 ## Conventions
 
