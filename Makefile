@@ -6,18 +6,18 @@ english: readers.eng.stats readers.eng.types oral.eng.stats oral.eng.types jacob
 
 readers.%.stats:
 	@echo 'Elementary readers ($*: sentences & tokens)'
-	@find $*/level* $*/gambell_mdc -name "*.$*_content" -type "f" | grep -v ".DS_Store" | xargs cat | grep -v "^\s*$$" | wc -lw
+	@find $*/level* $*/unleveled_readers -name "*.$*_content" -type "f" | grep -v ".DS_Store" | xargs cat | grep -v "^\s*$$" | wc -lw
 	@echo
 	@echo 'Elementary readers front-matter ($*: sentences & tokens)'
-	@find $*/level* $*/gambell_mdc -name "*.$*_titlepage" -type "f" | grep -v ".DS_Store" | xargs cat | grep -v "^\s*$$" | wc -lw
+	@find $*/level* $*/unleveled_readers -name "*.$*_titlepage" -type "f" | grep -v ".DS_Store" | xargs cat | grep -v "^\s*$$" | wc -lw
 	@echo
 
 readers.%.types:
 	@echo 'Elementary readers ($*: types)'
-	@find $*/level* $*/gambell_mdc -name "*.$*_content" -type "f" | grep -v ".DS_Store" | xargs cat | tr ' ' '\n' | grep -v "^\s*$$" | sort | uniq | wc -l
+	@find $*/level* $*/unleveled_readers -name "*.$*_content" -type "f" | grep -v ".DS_Store" | xargs cat | tr ' ' '\n' | grep -v "^\s*$$" | sort | uniq | wc -l
 	@echo
 	@echo 'Elementary readers front-matter ($*: types)'
-	@find $*/level* $*/gambell_mdc -name "*.$*_titlepage" -type "f" | grep -v ".DS_Store" | xargs cat | tr ' ' '\n' | grep -v "^\s*$$" | sort | uniq | wc -l
+	@find $*/level* $*/unleveled_readers -name "*.$*_titlepage" -type "f" | grep -v ".DS_Store" | xargs cat | tr ' ' '\n' | grep -v "^\s*$$" | sort | uniq | wc -l
 	@echo
 
 jacobson.%.stats:
