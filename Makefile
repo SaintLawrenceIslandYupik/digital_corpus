@@ -72,17 +72,17 @@ all.%.train:
 
 bible.%.train:
 	@echo 'Yupik New Testament as training corpus (excludes Luke and John)'
-	@find $*/new_testament -maxdepth 1 -type f | sort | grep -v 'B03_.*_Luke' | grep -v 'B04_.*_John' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep -v 'B03_.*_Luke' | grep -v 'B04_.*_John' | xargs cat | tr -d '§' | sed 's,^ *,,' | grep -v "^\s*$$"  > $@
 	@echo
 
 bible.%.dev:
 	@echo 'Yupik New Testament as dev corpus (includes only Luke)'
-	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B03_.*_Luke' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B03_.*_Luke' | xargs cat | tr -d '§' | sed 's,^ *,,' | grep -v "^\s*$$"  > $@
 	@echo
 
 bible.%.test:
 	@echo 'Yupik New Testament as test corpus (includes only John)'
-	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B04_.*_John' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B04_.*_John' | xargs cat | tr -d '§' | sed 's,^ *,,' | grep -v "^\s*$$"  > $@
 	@echo
 
 
