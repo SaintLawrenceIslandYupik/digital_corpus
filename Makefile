@@ -59,14 +59,14 @@ bible.%.types:
 
 
 all.%.train:
-	@echo 'Elementary readers, Lore of St. Lawrence Island, and Ungipaghaghlanga as training data'
-	@cat $*/level1.kallagneghet/$*_*/*.$*_*      | grep -v "^\s*$$"  > $@
-	@cat $*/level2.akiingqwaghneghet/$*_*/*.$*_* | grep -v "^\s*$$" >> $@
-	@cat $*/level3.suluwet/$*_*/*.$*_*           | grep -v "^\s*$$" >> $@
-	@cat $*/sivuqam_volume1/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
-	@cat $*/sivuqam_volume2/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
-	@cat $*/sivuqam_volume3/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
-	@cat $*/ungipaghaghlanga/$*_*/*.$*_*         | grep -v "^\s*$$" >> $@
+	@echo "Elementary readers, Lore of St. Lawrence Island, and Ungipaghaghlanga as ${*} training data"
+	@cat $(wildcard ${*}/level1.kallagneghet/${*}_*/*.${*}_*)      | grep -v "^\s*$$"  > $@
+	@cat $(wildcard ${*}/level2.akiingqwaghneghet/${*}_*/*.${*}_*) | grep -v "^\s*$$" >> $@
+	@cat $(wildcard ${*}/level3.suluwet/${*}_*/*.${*}_*)           | grep -v "^\s*$$" >> $@
+	@cat $(wildcard ${*}/sivuqam_volume1/${*}_*/*.${*}_*)          | grep -v "^\s*$$" >> $@
+	@cat $(wildcard ${*}/sivuqam_volume2/${*}_*/*.${*}_*)          | grep -v "^\s*$$" >> $@
+	@cat $(wildcard ${*}/sivuqam_volume3/${*}_*/*.${*}_*)          | grep -v "^\s*$$" >> $@
+	@cat $(wildcard ${*}/ungipaghaghlanga/${*}_*/*.${*}_*)         | grep -v "^\s*$$" >> $@
 	@echo
 
 
@@ -87,4 +87,4 @@ bible.%.test:
 
 
 clean:
-	rm -f *.character_histogram
+	rm -f *.character_histogram *.train *.dev *.test
