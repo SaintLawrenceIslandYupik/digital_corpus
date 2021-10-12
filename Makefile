@@ -57,5 +57,34 @@ bible.%.types:
 	@find $*/new_testament -name "*.$*" -type "f" | grep -v ".DS_Store" | xargs cat | tr -d '§' | tr ' ' '\n' | grep -v "^\s*$$" | sort | uniq | wc -l
 	@echo
 
+
+all.%.train:
+	@echo 'Elementary readers, Lore of St. Lawrence Island, and Ungipaghaghlanga as training data'
+	@cat $*/level1.kallagneghet/$*_*/*.$*_*      | grep -v "^\s*$$"  > $@
+	@cat $*/level2.akiingqwaghneghet/$*_*/*.$*_* | grep -v "^\s*$$" >> $@
+	@cat $*/level3.suluwet/$*_*/*.$*_*           | grep -v "^\s*$$" >> $@
+	@cat $*/sivuqam_volume1/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
+	@cat $*/sivuqam_volume2/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
+	@cat $*/sivuqam_volume3/$*_*/*.$*_*          | grep -v "^\s*$$" >> $@
+	@cat $*/ungipaghaghlanga/$*_*/*.$*_*         | grep -v "^\s*$$" >> $@
+	@echo
+
+
+bible.%.train:
+	@echo 'Yupik New Testament as training corpus (excludes Luke and John)'
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep -v 'B03_.*_Luke' | grep -v 'B04_.*_John' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@echo
+
+bible.%.dev:
+	@echo 'Yupik New Testament as dev corpus (includes only Luke)'
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B03_.*_Luke' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@echo
+
+bible.%.test:
+	@echo 'Yupik New Testament as test corpus (includes only John)'
+	@find $*/new_testament -maxdepth 1 -type f | sort | grep 'B04_.*_John' | xargs cat | tr -d '§' | grep -v "^\s*$$"  > $@
+	@echo
+
+
 clean:
 	rm -f *.character_histogram
