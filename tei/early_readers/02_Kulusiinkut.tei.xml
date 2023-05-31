@@ -13,180 +13,276 @@
                                 
                 <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
                 <title type="sub"  xml:lang="eng-us">Pre-Primer</title>
-            </titleStmt>
+
+		<author xml:lang="eng-us" role="bookAuthor">        
+		  <persName>
+		    <forename xml:lang="eng-us">Martha</forename>
+		    <surname xml:lang="eng-us">Teeluk</surname>
+		  </persName>
+		</author>
+            
+		<editor xml:lang="eng-us" role="bookIllustrator">
+                  <persName>
+		    <forename xml:lang="eng-us">Andrew</forename>
+		    <surname xml:lang="eng-us">Chikoyak</surname>
+		  </persName>
+		</editor>
+                        
+		<editor role="bookTranslator">
+                  <persName>
+		    <addName xml:lang="ess-us">Aghnaghaghpik</addName>
+		    <forename xml:lang="eng-us">Adelinda</forename>
+		    <surname xml:lang="eng-us">Badten</surname>
+		  </persName>
+		</editor>
+
+	    </titleStmt>
 
             <publicationStmt xml:lang="eng-us">
-                <publisher xml:lang="eng-us">
-                   A Production of the Alaska Native Language Program<pc>,</pc> a Division of the Center for Northern Educational Research
-                    University of Alaska
-                </publisher>
+              <publisher xml:lang="eng-us">
+		<orgName>
+                  <orgName type="division">Alaska Native Language Program</orgName>
+		  <orgName type="center">Center for Northern Educational Research</orgName>
+                  <orgName type="university">University of Alaska</orgName>
+		</orgName>
+              </publisher>
                 
-                <pubPlace xml:lang="eng-us">
-                    Printed at the Summer Institute of Linguistics
+              <pubPlace xml:lang="eng-us">
+                <orgName>Summer Institute of Linguistics</orgName>
+		<date when="1972">1972</date>
+		<note>Initial printing</note>
+	      </pubPlace>
 
-                    Reprinted by the Alaska Native Language Center
-                    University of Alaska<pc>,</pc> Fairbanks
-                    
-                    August 1983
-                    150 copies
-                </pubPlace>
+	      <pubPlace>
+                <orgName>
+		  <orgName>Alaska Native Language Center</orgName>
+                  <orgName>University of Alaska<pc>,</pc> Fairbanks</orgName>
+                </orgName>
+
+		<date when="1983-08">August 1983</date>
+
+		<note xml:lang="eng-us">150 copies</note>
+		
+              </pubPlace>
                 
-                <date when="1972">1972</date>
+              <date when="1972">1972</date>
             </publicationStmt>
 
-            <publicationStmt xml:lang="ess-us">
-                <publisher xml:lang="ess-us">
-                    Ulimaaghi Alaskam Yupigan Akuzillghanun Ilanganun
-                    Ulimaviganun Aywaaghmiit Liinnaqellghita
-                    Naalkunnaqellghan
-                </publisher>
-                
-                <pubPlace xml:lang="ess-us">
-                    Igiquqat Kiigem Liinnakfigani Akuzilleghmun
-                </pubPlace>
-                
-                <date when="1972">1972</date>
-            </publicationStmt>
-
-        
-            <respStmt xml:lang="eng-us" role="bookAuthor">
-                <resp xml:lang="eng-us">Written by</resp>
-                <persName xml:lang="eng-us">Martha Teeluk</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="eng-us" role="bookIllustrator">
-                <resp xml:lang="eng-us">Illustrated by</resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="eng-us" role="bookTranslator">
-                <resp xml:lang="eng-us">Translated into St. Lawrence Island Eskimo by</resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-
-            <respStmt xml:lang="ess-us" role="bookAuthor">
-                <resp xml:lang="ess-us">Igaqesta<pc>:</pc></resp>
-                <persName xml:lang="eng-us">Martha Teeluk</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="ess-us" role="bookIllustrator">
-                <resp xml:lang="ess-us">Terugista<pc>:</pc></resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="ess-us" role="bookTranslator">
-                <resp xml:lang="ess-us">Mumigtestengat Ayuqlightineng St. Lawrence Islandeghmiistun<pc>:</pc></resp>
-                <persName xml:lang="ess-us">Aghnaghaghpik</persName>
-            </respStmt>
-
-            
-            
             <sourceDesc>
-                <a href="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">SY970B1972d</a>
+	      <!--                <a href="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">-->
+	      <p>SY970B1972d</p>
+	      <!--</a> -->
             </sourceDesc>
 
         </fileDesc>
+
+
+	<encodingDesc>
+	  <projectDesc>
+	    <p>Digitized as part of NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language</p>
+	  </projectDesc>
+	</encodingDesc>
+	
+	<profileDesc>
+	  <langUsage>
+	    <language ident="ess-US">Akuzipik</language>
+	    <language ident="eng-US">English</language>
+	  </langUsage>
+	</profileDesc>
+
     </teiHeader>
 
     
-    <text>
-        <body xml:lang="ess-us">
+    <text xml:lang="ess-us">
 
-            <head>Kulusiinkut</head>
+      <front>
 
-            <div type="page" n="1"><p><s>Kulusiq</s></p></div>
-            <div type="page" n="2"><p><s>Ata</s></p></div>
-            <div type="page" n="3"><p><s>Naa</s></p></div>
-            <div type="page" n="4"><p><s>Qikmiq</s></p></div>
-            <div type="page" n="5"><p><s>Una Kulusiim atakaa<pc>.</pc></s></p></div>
-            <div type="page" n="6"><p><s>Una Kulusiim naakaa<pc>.</pc></s></p></div>
-            <div type="page" n="7"><p><s>Una Atam qikmiqaa<pc>.</pc></s></p></div>
-            <div type="page" n="8"><p><s>Una Kulusiim qikmiqaa<pc>.</pc></s></p></div>
-            <div type="page" n="9"><p><s>Tagi<pc>,</pc> Kulusiq<pc>!</pc></s> <s>Tagi<pc>!</pc></s></p></div>
-            <div type="page" n="10"><p><s>Kulusiq tagiiq<pc>.</pc></s></p></div>
-            <div type="page" n="11"><p><s>Ata tagiiq<pc>.</pc></s></p></div>
-            <div type="page" n="12"><p><s>Qikmiqlu tagiiq<pc>.</pc></s></p></div>
-            <div type="page" n="13"><p><s>Neghi<pc>,</pc> Kulusiq<pc>,</pc> neghi<pc>!</pc></s></p></div>
-            <div type="page" n="14"><p><s>Neghigu una<pc>.</pc></s></p></div>
-            <div type="page" n="15"><p><s>Kulusiq neghtuq<pc>.</pc></s></p></div>
-            <div type="page" n="16"><p><s>Ata neghtuq<pc>.</pc></s></p></div>
-            <div type="page" n="17"><p><s>Naa neghtuq<pc>.</pc></s></p></div>
-            <div type="page" n="18"><p><s>Atankuk naankuk neghtuk<pc>.</pc></s></p></div>
-            <div type="page" n="19"><p><s>Neghi<pc>,</pc> qikmiq<pc>,</pc> neghi<pc>!</pc></s></p></div>
-            <div type="page" n="20"><p><s>Qikmiq neghtuq<pc>.</pc></s></p></div>
-            <div type="page" n="21"><p><s>Atam qikmii neghtuq<pc>.</pc></s></p></div>
-            <div type="page" n="22"><p><s>Kulusiimllu qikmii neghtuq<pc>.</pc></s></p></div>
+	<pb xml:id="SY970B1972d-front-cover"/>
+	<titlePage type="cover" xml:lang="ess-us">
+	  <docTitle>
+	    <titlePart xml:lang="ess-us">KULUSIINKUT</titlePart>
+	  </docTitle>
+	  <graphic url="" />
+	</titlePage>
 
-        </body>
 
-        <back>
-            <div type="vocabulary" xml:lang="ess-us">
-                <div type="page" n="23" xml:lang="ess-us">
-                    <p>Akuzillghet Atuqegkat Igani Ukuni</p>
+	<pb xml:id="SY970B1972d-front-titlePage-ess" />
+	<div type="titlePage" xml:lang="ess-us">
+	  <head xml:lang="ess-us">
+	    <title type="main" xml:lang="ess-us">KULUSIINKUT</title>
+	    <graphic url="" />
+	    <title type="sub" xml:lang="ess-us">Liinnaqsuwhaallghet</title>
+	  </head>	 
+
+	  
+	  <p xml:lang="ess-us">
+            <s xml:lang="ess-us">Igaqesta<pc>:</pc> <persName xml:lang="eng-us">Martha Teeluk</persName></s><lb/>
+	    <s xml:lang="ess-us">Terugista<pc>:</pc> <persName xml:lang="eng-us">Andrew Chikoyak</persName></s><lb/>
+	  </p>
+
+	  <p xml:lang="ess-us">
+	    <s xml:lang="ess-us">Mumigtestengat Ayuqlightineng<lb/>St. Lawrence Islandeghmiistun<pc>:</pc><lb/><persName xml:lang="ess-us">Aghnaghaghpik</persName></s><lb/>
+	  </p>
+
+	  <p xml:lang="ess-us">
+            Ulimaaghi Alaskam Yupigan Akuzillghanun Ilanganun<lb/>
+	    Ulimaviganun Aywaaghmiit Liinnaqellghita<lb/>
+            Igiquqat Kiigem Liinnakfigani Akuzilleghmun<lb/>
+            Naalkunnaqellghan<lb/>
+	    <date when="1972">1972</date>
+	    Igiquqat Kiigem Liinnakfigani Akuzilleghmun<lb/>	    
+	  </p>
+
+	  
+	</div>
+
+
+	<pb xml:id="SY970B1972d-front-titlePage-eng" />
+	<div type="titlePage" xml:lang="eng-us">
+	  <head xml:lang="eng-us">
+	    <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
+	    <title type="sub" xml:lang="eng-us">Pre-primer</title>
+	  </head>
+	  
+	  <p xml:lang="eng-us">
+            <s xml:lang="eng-us">Written by <persName xml:lang="eng-us">Martha Teeluk</persName></s><lb/>
+	    <s xml:lang="eng-us">Illustrated by <persName xml:lang="eng-us">Andrew Chikoyak</persName></s><lb/>
+	  </p>
+
+	  <p xml:lang="eng-us">
+	    <s xml:lang="eng-us">
+	      Translated into<lb/>
+	      St<pc>.</pc> Lawrence Island Eskimo<lb/>
+	      by<lb/>
+	      <persName xml:lang="eng-us">Adelinda Badten</persName>
+	    </s>
+	    <lb/>
+	  </p>
+
+	  <p xml:lang="eng-us">
+	    <s>
+	      A Production of the<lb/>
+	      Alaska Native Language Program<pc>,</pc><lb/>
+	      a Division of the<lb/>
+	      Center for Northern Educational Research<lb/>
+	    </s>
+	  </p>
+
+	  <p xml:lang="eng-us">
+	    <s>
+	      University of Alaska<pc>,</pc> Fairbanks<lb/>
+	      <date when="1972">1972</date><lb/>
+	    </s>
+	  </p>
+
+	  <p xml:lang="eng-us">
+	    <s>Printed at the Summer Institute of Linguistics</s>
+	  </p>
+	  
+	</div>
+
+      </front>	
+
+
+      <body xml:lang="ess-us">
+	  <pb/><div><head>Kulusiinkut</head></div>
+	  
+          <pb n="1" /><div type="page" n="1" ><p><s>Kulusiq</s></p></div>
+          <pb n="2" /><div type="page" n="2" ><p><s>Ata</s></p></div>
+          <pb n="3" /><div type="page" n="3" ><p><s>Naa</s></p></div>
+          <pb n="4" /><div type="page" n="4" ><p><s>Qikmiq</s></p></div>
+          <pb n="5" /><div type="page" n="5" ><p><s>Una Kulusiim atakaa<pc>.</pc></s></p></div>
+          <pb n="6" /><div type="page" n="6" ><p><s>Una Kulusiim naakaa<pc>.</pc></s></p></div>
+          <pb n="7" /><div type="page" n="7" ><p><s>Una Atam qikmiqaa<pc>.</pc></s></p></div>
+          <pb n="8" /><div type="page" n="8" ><p><s>Una Kulusiim qikmiqaa<pc>.</pc></s></p></div>
+          <pb n="9" /><div type="page" n="9" ><p><s>Tagi<pc>,</pc> Kulusiq<pc>!</pc></s> <s>Tagi<pc>!</pc></s></p></div>
+          <pb n="10"/><div type="page" n="10"><p><s>Kulusiq tagiiq<pc>.</pc></s></p></div>
+          <pb n="11"/><div type="page" n="11"><p><s>Ata tagiiq<pc>.</pc></s></p></div>
+          <pb n="12"/><div type="page" n="12"><p><s>Qikmiqlu tagiiq<pc>.</pc></s></p></div>
+          <pb n="13"/><div type="page" n="13"><p><s>Neghi<pc>,</pc> Kulusiq<pc>,</pc> neghi<pc>!</pc></s></p></div>
+          <pb n="14"/><div type="page" n="14"><p><s>Neghigu una<pc>.</pc></s></p></div>
+          <pb n="15"/><div type="page" n="15"><p><s>Kulusiq neghtuq<pc>.</pc></s></p></div>
+          <pb n="16"/><div type="page" n="16"><p><s>Ata neghtuq<pc>.</pc></s></p></div>
+          <pb n="17"/><div type="page" n="17"><p><s>Naa neghtuq<pc>.</pc></s></p></div>
+          <pb n="18"/><div type="page" n="18"><p><s>Atankuk naankuk neghtuk<pc>.</pc></s></p></div>
+          <pb n="19"/><div type="page" n="19"><p><s>Neghi<pc>,</pc> qikmiq<pc>,</pc> neghi<pc>!</pc></s></p></div>
+          <pb n="20"/><div type="page" n="20"><p><s>Qikmiq neghtuq<pc>.</pc></s></p></div>
+          <pb n="21"/><div type="page" n="21"><p><s>Atam qikmii neghtuq<pc>.</pc></s></p></div>
+          <pb n="22"/><div type="page" n="22"><p><s>Kulusiimllu qikmii neghtuq<pc>.</pc></s></p></div>
+
+      </body>
+
+      
+      <back>
+
+	<pb/>
+        <div xml:lang="ess-us">	 
+          <p>Akuzillghet Atuqegkat Igani Ukuni</p>
                     
-                    <list type="gloss" xml:lang="ess-us">
+          <list type="vocabulary" xml:lang="ess-us">
                         
-                        <label>1<pc>.</pc></label> <item>Kulusiq</item>
-                        <label>2<pc>.</pc></label> <item>ata</item>
-                        <label>3<pc>.</pc></label> <item>naa</item>
-                        <label>4<pc>.</pc></label> <item>qikmiq</item>
+            <label>1<pc>.</pc></label> <item>Kulusiq</item><lb/>
+            <label>2<pc>.</pc></label> <item>ata</item><lb/>
+            <label>3<pc>.</pc></label> <item>naa</item><lb/>
+            <label>4<pc>.</pc></label> <item>qikmiq</item><lb/>
+	    
+            <label>5<pc>.</pc></label>
+            <item>una<lb/>
+            Kulusiim<lb/>
+            atakaa
+            </item><lb/>
 
-                        <label>5<pc>.</pc></label>
-                        <item>una
-                        Kulusiim
-                        atakaa
-                        </item>
-
-                        <label>6<pc>.</pc></label> <item>naakaa</item>
-                        <label>7<pc>.</pc></label> <item>atam</item>
-                        <label>8<pc>.</pc></label> <item>qikmiqaa</item>
-                        <label>9<pc>.</pc></label> <item>tagi</item>
-                        <label>10<pc>.</pc></label> <item>tagiiq</item>
-                        <label>12<pc>.</pc></label> <item>qikmiqlu</item>
-                        <label>13<pc>.</pc></label> <item>neghi</item>
-                        <label>14<pc>.</pc></label> <item>neghigu</item>
-                        <label>15<pc>.</pc></label> <item>neghtuq</item>
-
-                        <label>18<pc>.</pc></label>
-                        <item>atankuk
-                        naankuk
-                        neghtuk
-                        </item>
-
-                        <label>21<pc>.</pc></label> <item>qikmii</item>
-                        <label>22<pc>.</pc></label> <item>Kulusiimllu</item>
-                    </list>
-                </div>
-            </div>
-        </back>
-
-        <div type="vocabulary" xml:lang="eng-us">
-            <div type="page" n="24" xml:lang="eng-us">
-                <label>1<pc>.</pc></label> <item>Kulusiq</item>
-                <label>2<pc>.</pc></label> <item>The father</item>
-                <label>3<pc>.</pc></label> <item>The mother</item>
-                <label>4<pc>.</pc></label> <item>The dog</item>
-                <label>5<pc>.</pc></label> <item>This is Kulusiq’s father.</item>
-                <label>6<pc>.</pc></label> <item>This is Kulusiq’s mother.</item>
-                <label>7<pc>.</pc></label> <item>This is the father’s dog.</item>
-                <label>8<pc>.</pc></label> <item>This is Kulusiq’s dog.</item>
-                <label>9<pc>.</pc></label> <item>Come, Kulusiq! Come!</item>
-                <label>10<pc>.</pc></label> <item>Kulusiq comes.</item>
-                <label>11<pc>.</pc></label> <item>The father comes.</item>
-                <label>12<pc>.</pc></label> <item>The dog comes also.</item>
-                <label>13<pc>.</pc></label> <item>Eat Kulusiq, eat!</item>
-                <label>14<pc>.</pc></label> <item>Eat this.</item>
-                <label>15<pc>.</pc></label> <item>Kulusiq eats.</item>
-                <label>16<pc>.</pc></label> <item>The father eats.</item>
-                <label>17<pc>.</pc></label> <item>The mother eats.</item>
-                <label>18<pc>.</pc></label> <item>The father and mother eat.</item>
-                <label>19<pc>.</pc></label> <item>Eat, dog, eat!</item>
-                <label>20<pc>.</pc></label> <item>The dog eats.</item>
-                <label>21<pc>.</pc></label> <item>The father’s dog eats.</item>
-                <label>22<pc>.</pc></label> <item>Kulusiq’s dog eats also.</item>
-            </div>
+            <label>6<pc>.</pc></label> <item>naakaa</item><lb/>
+            <label>7<pc>.</pc></label> <item>atam</item><lb/>
+            <label>8<pc>.</pc></label> <item>qikmiqaa</item><lb/>
+            <label>9<pc>.</pc></label> <item>tagi</item><lb/>
+            <label>10<pc>.</pc></label> <item>tagiiq</item><lb/>
+            <label>12<pc>.</pc></label> <item>qikmiqlu</item><lb/>
+            <label>13<pc>.</pc></label> <item>neghi</item><lb/>
+            <label>14<pc>.</pc></label> <item>neghigu</item><lb/>
+            <label>15<pc>.</pc></label> <item>neghtuq</item><lb/>
+	    
+            <label>18<pc>.</pc></label>
+            <item>atankuk<lb/>
+            naankuk<lb/>
+            neghtuk
+            </item><lb/>
+	    
+            <label>21<pc>.</pc></label> <item>qikmii</item><lb/>
+            <label>22<pc>.</pc></label> <item>Kulusiimllu</item><lb/>
+          </list>
+          
         </div>
-        
+
+	<pb/>
+        <div xml:lang="eng-us">
+	  <list type="translation" xml:lang="eng-us">
+            <label>1<pc>.</pc></label> <item>Kulusiq</item>
+            <label>2<pc>.</pc></label> <item>The father</item>
+            <label>3<pc>.</pc></label> <item>The mother</item>
+            <label>4<pc>.</pc></label> <item>The dog</item>
+            <label>5<pc>.</pc></label> <item>This is Kulusiq’s father.</item>
+            <label>6<pc>.</pc></label> <item>This is Kulusiq’s mother.</item>
+            <label>7<pc>.</pc></label> <item>This is the father’s dog.</item>
+            <label>8<pc>.</pc></label> <item>This is Kulusiq’s dog.</item>
+            <label>9<pc>.</pc></label> <item>Come, Kulusiq! Come!</item>
+            <label>10<pc>.</pc></label> <item>Kulusiq comes.</item>
+            <label>11<pc>.</pc></label> <item>The father comes.</item>
+            <label>12<pc>.</pc></label> <item>The dog comes also.</item>
+            <label>13<pc>.</pc></label> <item>Eat Kulusiq, eat!</item>
+            <label>14<pc>.</pc></label> <item>Eat this.</item>
+            <label>15<pc>.</pc></label> <item>Kulusiq eats.</item>
+            <label>16<pc>.</pc></label> <item>The father eats.</item>
+            <label>17<pc>.</pc></label> <item>The mother eats.</item>
+            <label>18<pc>.</pc></label> <item>The father and mother eat.</item>
+            <label>19<pc>.</pc></label> <item>Eat, dog, eat!</item>
+            <label>20<pc>.</pc></label> <item>The dog eats.</item>
+            <label>21<pc>.</pc></label> <item>The father’s dog eats.</item>
+            <label>22<pc>.</pc></label> <item>Kulusiq’s dog eats also.</item>
+          </list>
+        </div>	
+
+      </back>        
 
     </text>
     
