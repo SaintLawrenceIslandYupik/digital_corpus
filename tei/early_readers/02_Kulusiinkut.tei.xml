@@ -1,4 +1,93 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.3/document.xsd">
+
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main" xml:lang="ess-us">Kulusiinkut</title>
+                <title type="sub"  xml:lang="ess-us">Liinnaqsuwhaallghet</title>
+                                
+                <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
+                <title type="sub"  xml:lang="eng-us">Pre-Primer</title>
+            </titleStmt>
+
+            <publicationStmt xml:lang="eng-us">
+                <publisher xml:lang="eng-us">
+                   A Production of the Alaska Native Language Program<pc>,</pc> a Division of the Center for Northern Educational Research
+                    University of Alaska
+                </publisher>
+                
+                <pubPlace xml:lang="eng-us">
+                    Printed at the Summer Institute of Linguistics
+
+                    Reprinted by the Alaska Native Language Center
+                    University of Alaska<pc>,</pc> Fairbanks
+                    
+                    August 1983
+                    150 copies
+                </pubPlace>
+                
+                <date when="1972">1972</date>
+            </publicationStmt>
+
+            <publicationStmt xml:lang="ess-us">
+                <publisher xml:lang="ess-us">
+                    Ulimaaghi Alaskam Yupigan Akuzillghanun Ilanganun
+                    Ulimaviganun Aywaaghmiit Liinnaqellghita
+                    Naalkunnaqellghan
+                </publisher>
+                
+                <pubPlace xml:lang="ess-us">
+                    Igiquqat Kiigem Liinnakfigani Akuzilleghmun
+                </pubPlace>
+                
+                <date when="1972">1972</date>
+            </publicationStmt>
+
+        
+            <respStmt xml:lang="eng-us" role="bookAuthor">
+                <resp xml:lang="eng-us">Written by</resp>
+                <persName xml:lang="eng-us">Martha Teeluk</persName>
+            </respStmt>
+            
+            <respStmt xml:lang="eng-us" role="bookIllustrator">
+                <resp xml:lang="eng-us">Illustrated by</resp>
+                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
+            </respStmt>
+            
+            <respStmt xml:lang="eng-us" role="bookTranslator">
+                <resp xml:lang="eng-us">Translated into St. Lawrence Island Eskimo by</resp>
+                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
+            </respStmt>
+
+            <respStmt xml:lang="ess-us" role="bookAuthor">
+                <resp xml:lang="ess-us">Igaqesta<pc>:</pc></resp>
+                <persName xml:lang="eng-us">Martha Teeluk</persName>
+            </respStmt>
+            
+            <respStmt xml:lang="ess-us" role="bookIllustrator">
+                <resp xml:lang="ess-us">Terugista<pc>:</pc></resp>
+                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
+            </respStmt>
+            
+            <respStmt xml:lang="ess-us" role="bookTranslator">
+                <resp xml:lang="ess-us">Mumigtestengat Ayuqlightineng St. Lawrence Islandeghmiistun<pc>:</pc></resp>
+                <persName xml:lang="ess-us">Aghnaghaghpik</persName>
+            </respStmt>
+
+            
+            
+            <sourceDesc>
+                <a href="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">SY970B1972d</a>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
     
     <text>
         <body xml:lang="ess-us">
@@ -101,104 +190,6 @@
 
     </text>
     
-    
-    
-    <teiHeader>
-        <xenodata>
-            <dc:title id="yupikTitle" xml:lang="ess-us" dir="ltr">Kulusiinkut</dc:title>
-            <dc:title id="yupikSubtitle" xml:lang="ess-us" dir="ltr">Liinnaqsuwhaallghet</dc:title>
-            <dc:title id="englishTitle" xml:lang="en" dir="ltr">Kulusiq and His Family</dc:title>
-            <dc:title id="englishSubtitle" xml:lang="en" dir="ltr">Pre-primer</dc:title>
-            <dc:title id="englishExtendedTitle" xml:lang="en" dir="ltr">Kulusiq and His Family: A pre-primer. A Production of the Alaska Native Language Program, a Division of the Center for Northern Educational Research. University of Alaska, Fairbanks.</dc:title>
-            <dc:creator id="bookAuthor" xml:lang="en">Martha Teeluk</dc:creator>
-            <dc:creator id="bookIllustrator" xml:lang="en">Andrew Chikoyak</dc:creator>
-            <dc:creator id="bookTranslator" xml:lang="en">Adelinda Badten</dc:creator>
-            <dc:creator id="bookProducer" xml:lang="en">Alaska Native Language Program</dc:creator>
-            <dc:publisher id="bookPublisher" xml:lang="en">University of Alaska Fairbanks</dc:publisher>
-            <dc:language id="bookLanguage">ess-us</dc:language>
-        </xenodata>
-        
-        <fileDesc>
-            
-            <titleStmt>
-                <title type="main" xml:lang="ess-us">Kulusiinkut</title>
-                <title type="sub"  xml:lang="ess-us">Liinnaqsuwhaallghet</title>
-                                
-                <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
-                <title type="sub"  xml:lang="eng-us">Pre-Primer</title>
-            </titleStmt>
-        
-        
-            <respStmt xml:lang="eng-us" role="bookAuthor">
-                <resp xml:lang="eng-us">Written by</resp>
-                <persName xml:lang="eng-us">Martha Teeluk</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="eng-us" role="bookIllustrator">
-                <resp xml:lang="eng-us">Illustrated by</resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="eng-us" role="bookTranslator">
-                <resp xml:lang="eng-us">Translated into St. Lawrence Island Eskimo by</resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-
-            <respStmt xml:lang="ess-us" role="bookAuthor">
-                <resp xml:lang="ess-us">Igaqesta<pc>:</pc></resp>
-                <persName xml:lang="eng-us">Martha Teeluk</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="ess-us" role="bookIllustrator">
-                <resp xml:lang="ess-us">Terugista<pc>:</pc></resp>
-                <persName xml:lang="eng-us">Andrew Chikoyak</persName>
-            </respStmt>
-            
-            <respStmt xml:lang="ess-us" role="bookTranslator">
-                <resp xml:lang="ess-us">Mumigtestengat Ayuqlightineng St. Lawrence Islandeghmiistun<pc>:</pc></resp>
-                <persName xml:lang="ess-us">Aghnaghaghpik</persName>
-            </respStmt>
-
-            
-            <publicationStmt xml:lang="eng-us">
-                <publisher xml:lang="eng-us">
-                    A Production of the Alaska Native Language Program<pc>,</pc> a Division of the Center for Northern Educational Research
-                    University of Alaska
-                </publisher>
-                
-                <pubPlace xml:lang="eng-us">
-                    Printed at the Summer Institute of Linguistics
-
-                    Reprinted by the Alaska Native Language Center
-                    University of Alaska<pc>,</pc> Fairbanks
-                    
-                    August 1983
-                    150 copies
-                </pubPlace>
-                
-                <date when="1972">1972</date>
-            </publicationStmt>
-
-            <publicationStmt xml:lang="ess-us">
-                <publisher xml:lang="ess-us">
-                    Ulimaaghi Alaskam Yupigan Akuzillghanun Ilanganun
-                    Ulimaviganun Aywaaghmiit Liinnaqellghita
-                    Naalkunnaqellghan
-                </publisher>
-                
-                <pubPlace xml:lang="ess-us">
-                    Igiquqat Kiigem Liinnakfigani Akuzilleghmun
-                </pubPlace>
-                
-                <date when="1972">1972</date>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <a href="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">SY970B1972d</a>
-            </sourceDesc>
-
-        </fileDesc>
-    </teiHeader>
     
 </TEI>
 
