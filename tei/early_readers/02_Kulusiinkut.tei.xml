@@ -53,6 +53,7 @@
 		<note>Initial printing</note>
 	      </pubPlace>
 
+	      <!--
 	      <pubPlace>
                 <orgName>
 		  <orgName>Alaska Native Language Center</orgName>
@@ -64,30 +65,86 @@
 		<note xml:lang="eng-us">150 copies</note>
 		
               </pubPlace>
-                
+              -->
+	      
               <date when="1972">1972</date>
             </publicationStmt>
 
-            <sourceDesc>
-	      <!--                <a href="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">-->
-	      <p>SY970B1972d</p>
-	      <!--</a> -->
-            </sourceDesc>
+	    <sourceDesc>
+	      <biblStruct>
+		<monogr>
+		  
+		  <author xml:lang="eng-us" role="bookAuthor">        
+		    <persName>
+		      <forename xml:lang="eng-us">Martha</forename>
+		      <surname xml:lang="eng-us">Teeluk</surname>
+		    </persName>
+		  </author>
+		  
+		  <editor xml:lang="eng-us" role="bookIllustrator">
+                    <persName>
+		      <forename xml:lang="eng-us">Andrew</forename>
+		      <surname xml:lang="eng-us">Chikoyak</surname>
+		    </persName>
+		  </editor>
+                  
+		  <editor role="bookTranslator">
+                    <persName>
+		      <addName xml:lang="ess-us">Aghnaghaghpik</addName>
+		      <forename xml:lang="eng-us">Adelinda</forename>
+		      <surname xml:lang="eng-us">Badten</surname>
+		    </persName>
+		  </editor>
+		  
+		  <title level="m">Kulusiinkut</title>
+		  
+		  <idno type="ANLA" source="https://www.uaf.edu/anla/record.php?identifier=SY970B1972d">SY970B1972d</idno>
+		  
+		  <imprint>
+		    <publisher xml:lang="eng-us">
+		      <orgName>
+			<orgName type="division">Alaska Native Language Program</orgName>
+			<orgName type="center">Center for Northern Educational Research</orgName>
+			<orgName type="university">University of Alaska</orgName>
+		      </orgName>
+		    </publisher>
+		    
+		    <date>1972</date>
+		  </imprint>
+		  
+		  </monogr>
+	      </biblStruct>
+	    </sourceDesc>	     
 
         </fileDesc>
 
 
-	<encodingDesc>
-	  <projectDesc>
+	<encodingDesc xml:lang="eng-US">
+	  <projectDesc xml:lang="eng-US">
 	    <p>Digitized as part of NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language</p>
 	  </projectDesc>
 	</encodingDesc>
 	
-	<profileDesc>
+	<profileDesc xml:lang="eng-US">
 	  <langUsage>
 	    <language ident="ess-US">Akuzipik</language>
 	    <language ident="eng-US">English</language>
 	  </langUsage>
+
+	  <textDesc xml:lang="eng-US">
+	    <channel mode="w">Comb-bound reader</channel>
+	    <constitution type="single">A single complete text</constitution>
+	    <derivation type="translation">Translation of Central Yup'ik primer Nuk'ankut</derivation>
+	    <domain type="education">Yupik pre-primer</domain>
+	    <factuality type="fiction">Kulusiq and his family</factuality>
+	    <interaction passive="world">published book</interaction>
+	    <preparedness type="revised">published book</preparedness>
+	    <purpose type="inform" degree="high">Yupik pre-primer</purpose>
+	  </textDesc>
+
+	  <settingDesc>
+	    <p>A Yupik boy in his village with his father, mother, and dog.</p>
+	  </settingDesc>
 	</profileDesc>
 
     </teiHeader>
