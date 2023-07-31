@@ -76,39 +76,6 @@
                 
                 <date when="2023-07-30"><!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->2023-07-30</date>
                 
-                <publisher xml:lang="eng-us"> <!-- (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html -->
-            
-            <!--
-                    <orgName>
-                        <orgName type="division">Alaska Native Language Program</orgName>
-                        <orgName type="center">Center for Northern Educational Research</orgName>
-                        <orgName type="university">University of Alaska</orgName>
-                    </orgName>
-                -->
-                </publisher>
-                
-                <pubPlace xml:lang="eng-us"> <!-- (publication place) contains the name of the place where a bibliographic item was published. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pubPlace.html -->
-                   
-                   <orgName>Summer Institute of Linguistics</orgName>
-                    <date when="1972">1972</date> <!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->
-                    <note>Initial printing</note> <!-- (note) contains a note or annotation. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html -->
-                </pubPlace>
-                
-                <!--
-                <pubPlace>
-                <orgName>
-                <orgName>Alaska Native Language Center</orgName>
-                <orgName>University of Alaska<pc>,</pc> Fairbanks</orgName>
-                </orgName>
-                
-                <date when="1983-08">August 1983</date>
-                
-                <note xml:lang="eng-us">150 copies</note>
-                
-                </pubPlace>
-                -->
-                
-                <date when="1972">1972</date>
             </publicationStmt>
             
             <sourceDesc> <!-- (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html -->
@@ -149,6 +116,10 @@
                                     <orgName type="university">University of Alaska</orgName>
                                 </orgName>
                             </publisher>
+                            
+                            <pubPlace xml:lang="eng-us">
+                                Printed at the <orgName>Summer Institute of Linguistics</orgName>
+                            </pubPlace>
                             
                             <date>1972</date>
                         </imprint>
@@ -359,24 +330,24 @@
                     <label>2<pc join="left">.</pc></label> <item>The father</item>
                     <label>3<pc join="left">.</pc></label> <item>The mother</item>
                     <label>4<pc join="left">.</pc></label> <item>The dog</item>
-                    <label>5<pc join="left">.</pc></label> <item>This is Kulusiq’s father.</item>
-                    <label>6<pc join="left">.</pc></label> <item>This is Kulusiq’s mother.</item>
-                    <label>7<pc join="left">.</pc></label> <item>This is the father’s dog.</item>
-                    <label>8<pc join="left">.</pc></label> <item>This is Kulusiq’s dog.</item>
-                    <label>9<pc join="left">.</pc></label> <item>Come, Kulusiq! Come!</item>
-                    <label>10<pc join="left">.</pc></label> <item>Kulusiq comes.</item>
-                    <label>11<pc join="left">.</pc></label> <item>The father comes.</item>
-                    <label>12<pc join="left">.</pc></label> <item>The dog comes also.</item>
-                    <label>13<pc join="left">.</pc></label> <item>Eat Kulusiq, eat!</item>
-                    <label>14<pc join="left">.</pc></label> <item>Eat this.</item>
-                    <label>15<pc join="left">.</pc></label> <item>Kulusiq eats.</item>
-                    <label>16<pc join="left">.</pc></label> <item>The father eats.</item>
-                    <label>17<pc join="left">.</pc></label> <item>The mother eats.</item>
-                    <label>18<pc join="left">.</pc></label> <item>The father and mother eat.</item>
-                    <label>19<pc join="left">.</pc></label> <item>Eat, dog, eat!</item>
-                    <label>20<pc join="left">.</pc></label> <item>The dog eats.</item>
-                    <label>21<pc join="left">.</pc></label> <item>The father’s dog eats.</item>
-                    <label>22<pc join="left">.</pc></label> <item>Kulusiq’s dog eats also.</item>
+                    <label>5<pc join="left">.</pc></label> <item>This is Kulusiq’s father<pc join="left">.</pc></item>
+                    <label>6<pc join="left">.</pc></label> <item>This is Kulusiq’s mother<pc join="left">.</pc></item>
+                    <label>7<pc join="left">.</pc></label> <item>This is the father’s dog<pc join="left">.</pc></item>
+                    <label>8<pc join="left">.</pc></label> <item>This is Kulusiq’s dog<pc join="left">.</pc></item>
+                    <label>9<pc join="left">.</pc></label> <item>Come<pc join="left">,</pc> Kulusiq<pc join="left">!</pc> Come<pc join="left">!</pc></item>
+                    <label>10<pc join="left">.</pc></label> <item>Kulusiq comes<pc join="left">.</pc></item>
+                    <label>11<pc join="left">.</pc></label> <item>The father comes<pc join="left">.</pc></item>
+                    <label>12<pc join="left">.</pc></label> <item>The dog comes also<pc join="left">.</pc></item>
+                    <label>13<pc join="left">.</pc></label> <item>Eat Kulusiq<pc join="left">,</pc> eat<pc join="left">!</pc></item>
+                    <label>14<pc join="left">.</pc></label> <item>Eat this<pc join="left">.</pc></item>
+                    <label>15<pc join="left">.</pc></label> <item>Kulusiq eats<pc join="left">.</pc></item>
+                    <label>16<pc join="left">.</pc></label> <item>The father eats<pc join="left">.</pc></item>
+                    <label>17<pc join="left">.</pc></label> <item>The mother eats<pc join="left">.</pc></item>
+                    <label>18<pc join="left">.</pc></label> <item>The father and mother eat<pc join="left">.</pc></item>
+                    <label>19<pc join="left">.</pc></label> <item>Eat<pc join="left">,</pc> dog<pc join="left">,</pc> eat<pc join="left">!</pc></item>
+                    <label>20<pc join="left">.</pc></label> <item>The dog eats<pc join="left">.</pc></item>
+                    <label>21<pc join="left">.</pc></label> <item>The father’s dog eats<pc join="left">.</pc></item>
+                    <label>22<pc join="left">.</pc></label> <item>Kulusiq’s dog eats also<pc join="left">.</pc></item>
                 </list>
             </div>
             
