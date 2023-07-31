@@ -37,33 +37,59 @@
                     </persName>
                 </editor>
                 
+            </titleStmt>
+            
+            <editionStmt> <!-- (edition statement) groups information relating to one edition of a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editionStmt.html -->
+                <edition><!-- (edition) describes the particularities of one edition of a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-edition.html -->Archival digital edition <date when="2023-07-30"><!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->2023-07-30</date></edition>
                 <principal> <!-- (principal researcher) supplies the name of the principal researcher responsible for the creation of an electronic text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-principal.html -->
-                    <persName ref="https://orcid.org/0000-0003-2609-8133">
+                    Scanned, digitized, archived, and released by Principal Investigator <persName ref="https://orcid.org/0000-0003-2609-8133" xml:id="orcid-0000-0003-2609-8133">
                         <addName xml:lang="ess-us">Sugri</addName>
                         <forename xml:lang="eng-us">Lane</forename>
                         <surname xml:lang="eng-us">Schwartz</surname>
                     </persName>
                 </principal>
-                
                 <funder> <!-- (funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-funder.html -->
                     <orgName ref="https://www.nsf.gov"> <!-- (organization name) contains an organizational name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html -->
-                        The <location><!-- (location) defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html --><country key="US"><!-- (country) contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-country.html -->United States</country></location> National Science Foundation, an independent federal agency
-                    </orgName>
+                        <location><!-- (location) defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html --><country key="US"><!-- (country) contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-country.html -->United States</country></location> National Science Foundation
+                    </orgName> <note target="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1761680"><!-- (note) contains a note or annotation. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html -->Award 1761680</note>
                 </funder>
-                
-            </titleStmt>
+            </editionStmt>
+            
+            <extent><!-- (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-extent.html -->
+                <measure unit="KiB" quantity="25"><!-- (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-measure.html -->25 KiB</measure>
+                <measure unit="tokens" quantity="51">51 Yupik word tokens</measure>
+                <measure unit="types" quantity="22">22 Yupik word types</measure>
+                <measure unit="sentences" quantity="19">19 Yupik sentences</measure>
+            </extent>
             
             <publicationStmt xml:lang="eng-us"> <!-- (publication statement) groups information concerning the publication or distribution of an electronic or other text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html -->
+                
+                <authority xml:lang="eng-us"> <!-- (release authority) supplies the name of a person or other agency responsible for making a work available, other than a publisher or distributor. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-authority.html -->
+                    Released by <persName ref="https://orcid.org/0000-0003-2609-8133" sameAs="#orcid-0000-0003-2609-8133">Lane Schwartz</persName> under authorization by the <orgName>Native Village of Gambell</orgName>, <orgName>Sivuqaq, Inc</orgName>, the <orgName>City of Gambell</orgName>, the <orgName>Alaska Native Language Center</orgName>, and the <orgName>Bering Straight School District</orgName>
+                </authority>
+                
+                <availability status="restricted" xml:lang="eng-us"> <!-- (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-availability.html -->
+                    <p><!-- (paragraph) marks paragraphs in prose. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html -->This resource is part of the linguistic and cultural heritage of the St. Lawrence Island Yupik people. By accessing this resource, you agree to treat this resource, the St. Lawrence Island Yupik language, the St. Lawrence Island Yupik culture, and the St. Lawrence Island Yupik people with dignity and respect. If you do not agree to these conditions, you may not access this resource and you may not make copies of this resource.</p>
+                    
+                    <ab><!-- (anonymous block) contains any component-level unit of text, acting as a container for phrase or inter level elements analogous to, but without the same constraints as, a paragraph. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ab.html -->If you agree to these conditions, you may access this resource under the terms of the</ab> <licence target="https://creativecommons.org/licenses/by-nc/4.0/"><!-- contains information about a licence or other legal agreement applicable to the text https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-licence.html -->Creative Commons Attribution No-Commercial 4.0 license</licence>
+                </availability>
+                
+                <date when="2023-07-30"><!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->2023-07-30</date>
+                
                 <publisher xml:lang="eng-us"> <!-- (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html -->
-                    <orgName> <!-- (organization name) contains an organizational name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html -->
+            
+            <!--
+                    <orgName>
                         <orgName type="division">Alaska Native Language Program</orgName>
                         <orgName type="center">Center for Northern Educational Research</orgName>
                         <orgName type="university">University of Alaska</orgName>
                     </orgName>
+                -->
                 </publisher>
                 
                 <pubPlace xml:lang="eng-us"> <!-- (publication place) contains the name of the place where a bibliographic item was published. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pubPlace.html -->
-                    <orgName>Summer Institute of Linguistics</orgName>
+                   
+                   <orgName>Summer Institute of Linguistics</orgName>
                     <date when="1972">1972</date> <!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->
                     <note>Initial printing</note> <!-- (note) contains a note or annotation. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html -->
                 </pubPlace>
