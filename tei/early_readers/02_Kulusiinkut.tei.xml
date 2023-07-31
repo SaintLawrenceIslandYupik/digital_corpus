@@ -3,25 +3,26 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://lodel.org/ns/tei/tei.openedition.1.6.3/document.xsd">
     
-    <teiHeader>
+    <teiHeader> <!-- (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html -->
         
-        <fileDesc>
+        <fileDesc> <!-- (file description) contains a full bibliographic description of an electronic file. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html -->
             
-            <titleStmt>
-                <title type="main" xml:lang="ess-us">Kulusiinkut</title>
+            <titleStmt> <!-- (title statement) groups information about the title of a work and those responsible for its content. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html
+                        -->
+                <title type="main" xml:lang="ess-us">Kulusiinkut</title> <!-- (title) contains a title for any kind of work. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html -->
                 <title type="sub"  xml:lang="ess-us">Liinnaqsuwhaallghet</title>
                 
                 <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
                 <title type="sub"  xml:lang="eng-us">Pre-Primer</title>
                 
-                <author xml:lang="eng-us" role="bookAuthor">
-                    <persName>
-                        <forename xml:lang="eng-us">Martha</forename>
-                        <surname xml:lang="eng-us">Teeluk</surname>
+                <author xml:lang="eng-us" role="bookAuthor"> <!-- (author) in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-author.html -->
+                    <persName> <!-- (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html -->
+                        <forename xml:lang="eng-us">Martha</forename> <!-- (forename) contains a forename, given or baptismal name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-forename.html -->
+                        <surname xml:lang="eng-us">Teeluk</surname> <!-- (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-surname.html -->
                     </persName>
                 </author>
                 
-                <editor xml:lang="eng-us" role="bookIllustrator">
+                <editor xml:lang="eng-us" role="bookIllustrator"> <!-- (editor) contains a secondary statement of responsibility for a bibliographic item, for example the name of an individual, institution or organization, (or of several such) acting as editor, compiler, translator, etc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editor.html -->
                     <persName>
                         <forename xml:lang="eng-us">Andrew</forename>
                         <surname xml:lang="eng-us">Chikoyak</surname>
@@ -36,21 +37,35 @@
                     </persName>
                 </editor>
                 
+                <principal> <!-- (principal researcher) supplies the name of the principal researcher responsible for the creation of an electronic text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-principal.html -->
+                    <persName ref="https://orcid.org/0000-0003-2609-8133">
+                        <addName xml:lang="ess-us">Sugri</addName>
+                        <forename xml:lang="eng-us">Lane</forename>
+                        <surname xml:lang="eng-us">Schwartz</surname>
+                    </persName>
+                </principal>
+                
+                <funder> <!-- (funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-funder.html -->
+                    <orgName ref="https://www.nsf.gov"> <!-- (organization name) contains an organizational name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html -->
+                        The <location><!-- (location) defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-location.html --><country key="US"><!-- (country) contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-country.html -->United States</country></location> National Science Foundation, an independent federal agency
+                    </orgName>
+                </funder>
+                
             </titleStmt>
             
-            <publicationStmt xml:lang="eng-us">
-                <publisher xml:lang="eng-us">
-                    <orgName>
+            <publicationStmt xml:lang="eng-us"> <!-- (publication statement) groups information concerning the publication or distribution of an electronic or other text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html -->
+                <publisher xml:lang="eng-us"> <!-- (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html -->
+                    <orgName> <!-- (organization name) contains an organizational name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html -->
                         <orgName type="division">Alaska Native Language Program</orgName>
                         <orgName type="center">Center for Northern Educational Research</orgName>
                         <orgName type="university">University of Alaska</orgName>
                     </orgName>
                 </publisher>
                 
-                <pubPlace xml:lang="eng-us">
+                <pubPlace xml:lang="eng-us"> <!-- (publication place) contains the name of the place where a bibliographic item was published. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pubPlace.html -->
                     <orgName>Summer Institute of Linguistics</orgName>
-                    <date when="1972">1972</date>
-                    <note>Initial printing</note>
+                    <date when="1972">1972</date> <!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->
+                    <note>Initial printing</note> <!-- (note) contains a note or annotation. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html -->
                 </pubPlace>
                 
                 <!--
@@ -70,9 +85,9 @@
                 <date when="1972">1972</date>
             </publicationStmt>
             
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
+            <sourceDesc> <!-- (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html -->
+                <biblStruct> <!-- (structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements appear and in a specified order. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-biblStruct.html -->
+                    <monogr> <!-- (monographic level) contains bibliographic elements describing an item (e.g. a book or journal) published as an independent item (i.e. as a separate physical object). https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-monogr.html -->
                         
                         <author xml:lang="eng-us" role="bookAuthor">
                             <persName>
