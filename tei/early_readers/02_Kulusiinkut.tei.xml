@@ -107,6 +107,8 @@
 
                         <date>1972</date>
 
+                        <idno type="ANLA"><!-- (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html -->SY970B1972d</idno>
+                        
                     </publicationStmt>
 
 
@@ -120,7 +122,7 @@
 
         <encodingDesc xml:lang="eng-US"> <!-- (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html -->
             <projectDesc xml:lang="eng-US"> <!-- (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-projectDesc.html -->
-                <p>Digitized as part of NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language</p>
+                <p>Digitized as part of NSF Award 1761680 <name>NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language</name></p>
             </projectDesc>
         </encodingDesc>
 
