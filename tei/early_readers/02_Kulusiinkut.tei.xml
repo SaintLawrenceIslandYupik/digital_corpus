@@ -7,7 +7,7 @@
         
         <fileDesc> <!-- (file description) contains a full bibliographic description of an electronic file. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html -->
             
-            <titleStmt> <!-- (title statement) groups information about the title of a work and those responsible for its content. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html
+            <titleStmt xml:id="SY970B1972d"> <!-- (title statement) groups information about the title of a work and those responsible for its content. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html
                         -->
                 <title type="main" xml:lang="ess-us">Kulusiinkut</title> <!-- (title) contains a title for any kind of work. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html -->
                 <title type="sub"  xml:lang="ess-us">Liinnaqsuwhaallghet</title>
@@ -38,7 +38,8 @@
                 </editor>
                 
             </titleStmt>
-            
+
+
             <editionStmt> <!-- (edition statement) groups information relating to one edition of a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editionStmt.html -->
                 <edition><!-- (edition) describes the particularities of one edition of a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-edition.html -->Archival digital edition <date when="2023-07-30"><!-- (date) contains a date in any format. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html -->2023-07-30</date></edition>
                 <principal> <!-- (principal researcher) supplies the name of the principal researcher responsible for the creation of an electronic text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-principal.html -->
@@ -57,8 +58,8 @@
             
             <extent><!-- (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-extent.html -->
                 <measure unit="KiB" quantity="25"><!-- (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-measure.html -->25 KiB</measure>
-                <measure unit="tokens" quantity="51">51 Yupik word tokens</measure>
-                <measure unit="types" quantity="22">22 Yupik word types</measure>
+                <measure unit="tokens" quantity="51" xml:id="YupikWordTokens">51 Yupik word tokens</measure>
+                <measure unit="types" quantity="22" xml:id="YupikWordTypes">22 Yupik word types</measure>
                 <measure unit="sentences" quantity="19">19 Yupik sentences</measure>
             </extent>
             
@@ -81,40 +82,17 @@
             <sourceDesc> <!-- (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html -->
                 
                 <biblFull>
-                    <titleStmt xml:id="kulusiinkut"> <!-- (title statement) groups information about the title of a work and those responsible for its content. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html
-                                -->
-                        <title type="main" xml:lang="ess-us">Kulusiinkut</title> <!-- (title) contains a title for any kind of work. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html -->
-                        <title type="sub"  xml:lang="ess-us">Liinnaqsuwhaallghet</title>
-                        
-                        <title type="main" xml:lang="eng-us">Kulusiq and His Family</title>
-                        <title type="sub"  xml:lang="eng-us">Pre-Primer</title>
-                        
-                        <author xml:lang="eng-us" role="bookAuthor"> <!-- (author) in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-author.html -->
-                            <persName> <!-- (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html -->
-                                <forename xml:lang="eng-us">Martha</forename> <!-- (forename) contains a forename, given or baptismal name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-forename.html -->
-                                <surname xml:lang="eng-us">Teeluk</surname> <!-- (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-surname.html -->
-                            </persName>
-                        </author>
-                        
-                        <editor xml:lang="eng-us" role="bookIllustrator"> <!-- (editor) contains a secondary statement of responsibility for a bibliographic item, for example the name of an individual, institution or organization, (or of several such) acting as editor, compiler, translator, etc. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editor.html -->
-                            <persName>
-                                <forename xml:lang="eng-us">Andrew</forename>
-                                <surname xml:lang="eng-us">Chikoyak</surname>
-                            </persName>
-                        </editor>
-                        
-                        <editor role="bookTranslator">
-                            <persName>
-                                <addName xml:lang="ess-us">Aghnaghaghpik</addName>
-                                <forename xml:lang="eng-us">Adelinda</forename>
-                                <surname xml:lang="eng-us">Badten</surname>
-                            </persName>
-                        </editor>
-                        
+
+                    <titleStmt copyOf="#SY970B1972d"> <!-- (title statement) groups information about the title of a work and those responsible for its content. -->
+                        <title />
                     </titleStmt>
                     
+                    <extent><!-- (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-extent.html -->
+                        <measure unit="pages" quantity="28"><!-- (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-measure.html -->28 pages</measure>
+                    </extent>
+
                     <publicationStmt> <!-- (publication statement) groups information concerning the publication or distribution of an electronic or other text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html -->
-                        
+
                         <publisher xml:lang="eng-us">
                             <orgName>
                                 <orgName type="division">Alaska Native Language Program</orgName>
@@ -122,36 +100,39 @@
                                 <orgName type="university">University of Alaska</orgName>
                             </orgName>
                         </publisher>
-                        
+
                         <pubPlace xml:lang="eng-us">
                             Printed at the <orgName>Summer Institute of Linguistics</orgName>
                         </pubPlace>
-                        
+
                         <date>1972</date>
-                        
+
                     </publicationStmt>
-                    
+
+
                 </biblFull>
-                
-                
+
+
             </sourceDesc>
-            
+
         </fileDesc>
-        
-        
-        <encodingDesc xml:lang="eng-US">
-            <projectDesc xml:lang="eng-US">
+
+
+        <encodingDesc xml:lang="eng-US"> <!-- (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html -->
+            <projectDesc xml:lang="eng-US"> <!-- (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-projectDesc.html -->
                 <p>Digitized as part of NNA: Collaborative Research: Integrating Language Documentation and Computational Tools for Yupik, an Alaska Native Language</p>
             </projectDesc>
         </encodingDesc>
-        
-        <profileDesc xml:lang="eng-US">
-            <langUsage>
-                <language ident="ess-US">Akuzipik</language>
+
+
+        <profileDesc xml:lang="eng-US"> <!-- (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html -->
+
+            <langUsage> <!-- (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-langUsage.html -->
+                <language ident="ess-US">Akuzipik</language> <!-- (language) characterizes a single language or sublanguage used within a text. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html -->
                 <language ident="eng-US">English</language>
             </langUsage>
-            
-            <textDesc xml:lang="eng-US">
+
+            <textDesc xml:lang="eng-US"> <!-- (text description) provides a description of a text in terms of its situational parameters. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-textDesc.html -->
                 <channel mode="w">Comb-bound reader</channel>
                 <constitution type="single">A single complete text</constitution>
                 <derivation type="translation">Translation of Central Yup'ik primer Nuk'ankut</derivation>
@@ -161,19 +142,19 @@
                 <preparedness type="revised">published book</preparedness>
                 <purpose type="inform" degree="high">Yupik pre-primer</purpose>
             </textDesc>
-            
-            <settingDesc>
+
+            <settingDesc> <!-- (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-settingDesc.html -->
                 <p>A Yupik boy in his village with his father, mother, and dog.</p>
             </settingDesc>
         </profileDesc>
-        
+
     </teiHeader>
-    
-    
+
+
     <text xml:lang="ess-us">
-        
+
         <front>
-            
+
             <pb xml:id="SY970B1972d-front-cover"/>
             <titlePage type="cover" xml:lang="ess-us">
                 <docTitle>
@@ -181,8 +162,8 @@
                 </docTitle>
                 <graphic url="" />
             </titlePage>
-            
-            
+
+
             <pb xml:id="SY970B1972d-front-titlePage-ess" />
             <div type="titlePage" xml:lang="ess-us">
                 <head xml:lang="ess-us">
