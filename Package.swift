@@ -14,7 +14,7 @@ let package = Package(
                 path: "ess",
                 sources: nil,
                 resources: [.process("early_readers")],
-                publicHeadersPath: nil
+                publicHeadersPath: ""
                )
     ]
 )
