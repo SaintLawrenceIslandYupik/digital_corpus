@@ -13,7 +13,7 @@ let package = Package(
         .target(name: "EarlyReaders",
                 path: "ess",
                 sources: nil,
-                resources: [.process("early_readers")],
+                resources: [.process("early_readers/ess_content/*.ess_content")],
                 publicHeadersPath: ""
                )
     ]
