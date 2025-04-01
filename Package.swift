@@ -4,9 +4,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "AkuzipikDigitalCorpus",
+    name: "digital_corpus",
     products: [
-        .library(name: "AkuzipikDigitalCorpus",
+        .library(name: "digital_corpus",
                  targets: ["EarlyReaders"]),
     ],
     targets: [
