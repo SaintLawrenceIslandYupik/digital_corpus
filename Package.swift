@@ -11,8 +11,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "EarlyReaders",
-                resources: [.process("early_readers", targetPath: "ess"),
-                            .process("early_readers", targetPath: "eng")]
+                path: "ess",
+                resources: [.process("early_readers")]
                )
     ]
 )
