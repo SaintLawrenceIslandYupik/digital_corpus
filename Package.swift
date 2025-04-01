@@ -12,6 +12,8 @@ let package = Package(
     targets: [
         .target(name: "EarlyReaders",
                 path: "ess",
+                sources: nil,
+                publicHeadersPath: nil,
                 resources: [.process("early_readers")]
                )
     ]
