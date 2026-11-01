@@ -1,0 +1,115 @@
+define StartOfText      [ %[ ];
+define EndOfText        [ %] ];
+
+# Column 1: Labial
+define p     {p};
+define v     {v};
+define f     {f};
+define m     {m};
+define mm    {mm};
+
+
+# Column 2: Alveolar
+define t     {t};
+define z     {z};  
+define y     {y};
+define s     {s};
+define n     {n};
+define nn    {nn};
+
+
+# Column 3: Lateral
+define l     {l};
+define ll    {ll};
+
+# Column 4: Rhotic
+define r     {r};
+define rr    {rr};
+
+
+# Column 5: Velar
+define k     {k};
+define g     {g};
+define gg    {gg};
+define ng    {ng};
+define ngng  {ngng};
+
+
+# Column 6: Rounded velar
+define kw    {kw};
+define w     {w};
+define wh    {wh};
+define ngw   {ngw};
+define ngngw {ngngw};
+
+# Column 7: Uvular
+define q     {q};
+define gh    {gh};
+define ghh   {ghh};
+
+# Column 8: Rounded uvular
+define qw    {qw};
+define ghw   {ghw};
+define ghhw  {ghhw};
+
+# Column 9: Glottal
+define h     {h};
+
+# Vowels
+define e {e};
+define i {i};
+define a {a};
+define u {u};
+
+# Long vowels
+define ii {ii};
+define aa {aa};
+define uu {uu};
+
+
+define +Labial   [ p  | v     | f  | m   | mm    ];
+define +Alveolar [ t  | z | y | s  | n   | nn    ]; 
+define +Lateral  [      l     | ll               ];
+define +Rhotic   [      r     | rr               ];
+define +Velar    [ k  | g     | gg | ng  | ngng  
+                 | kw | w     | wh | ngw | ngngw ];
+define +Uvular   [ q  | gh    | ghh              
+                 | qw | ghw   | ghhw             ];
+define +Glottal  [              h                ];              
+
+define +FullV [ i  | a  | u  ];                    
+define +LongV [ ii | aa | uu ];
+define Vowel [ e | %+FullV | %+LongV ];
+
+define +Voice    [     v           | m
+                 |     z | y       | n
+                 |     l
+                 |     r
+                 |     g           | ng
+                 |     w           | ngw
+                 |     gh                   
+                 |     ghw                       ]; 
+
+define -Voice    [ p          | f        | mm    
+                 | t          | s        | nn     
+                 |              ll               
+                 |              rr               
+                 | k          | gg       | ngng  
+                 | kw         | wh       | ngngw
+                 | q          | ghh              
+                 | qw         | ghhw             
+                 |              h                ];              
+
+
+define Consonant [ %-Voice | %+Voice ];
+
+
+define Vocabulary [ {ahaay} | {anghi} | {qikmiq} | {sanghhwingngwaaq} ];
+push Vocabulary
+pairs
+
+define Tokenize [ [ Consonant.r | Vowel.r ] @-> EndOfText ... StartOfText ];
+define TokenizedVocab [ [ Vocabulary.r .o. Tokenize ].r ];
+push TokenizedVocab
+pairs
+

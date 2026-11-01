@@ -1,0 +1,226 @@
+
+
+define StartOfText      [ %[ ];
+define EndOfText        [ %] ];
+
+define StartOfCVC  [ %< "1" ];
+define EndOfCVC    [ "1" %> ];
+
+define StartOfCV  [ %< "2" ];
+define EndOfCV    [ "2" %> ];
+
+define StartOfVC  [ %< "3" ];
+define EndOfVC    [ "3" %> ];
+
+define StartOfV  [ %< "4" ];
+define EndOfV    [ "4" %> ];
+
+define SyllableBoundary [ "\u2027" ];
+
+# Column 1: Labial
+define p     {p};
+define v     {v};
+define f     {f};
+define m     {m};
+define mm    {mm};
+
+
+# Column 2: Alveolar
+define t     {t};
+define z     {z};  
+define y     {y};
+define s     {s};
+define n     {n};
+define nn    {nn};
+
+
+# Column 3: Lateral
+define l     {l};
+define ll    {ll};
+
+# Column 4: Rhotic
+define r     {r};
+define rr    {rr};
+
+
+# Column 5: Velar
+define k     {k};
+define g     {g};
+define gg    {gg};
+define ng    {ng};
+define ngng  {ngng};
+
+
+# Column 6: Rounded velar
+define kw    {kw};
+define w     {w};
+define wh    {wh};
+define ngw   {ngw};
+define ngngw {ngngw};
+
+# Column 7: Uvular
+define q     {q};
+define gh    {gh};
+define ghh   {ghh};
+
+# Column 8: Rounded uvular
+define qw    {qw};
+define ghw   {ghw};
+define ghhw  {ghhw};
+
+# Column 9: Glottal
+define h     {h};
+
+# Vowels
+define e {e};
+define i {i};
+define a {a};
+define u {u};
+
+# Long vowels
+define ii {ii};
+define aa {aa};
+define uu {uu};
+
+
+define +Labial   [ p  | v     | f  | m   | mm    ];
+define +Alveolar [ t  | z | y | s  | n   | nn    ]; 
+define +Lateral  [      l     | ll               ];
+define +Rhotic   [      r     | rr               ];
+define +Velar    [ k  | g     | gg | ng  | ngng  
+                 | kw | w     | wh | ngw | ngngw ];
+define +Uvular   [ q  | gh    | ghh              
+                 | qw | ghw   | ghhw             ];
+define +Glottal  [              h                ];              
+
+define +FullV [ i  | a  | u  ];                    
+define +LongV [ ii | aa | uu ];
+define Vowel [ e | %+FullV | %+LongV ];
+
+define +Voice    [     v           | m
+                 |     z | y       | n
+                 |     l
+                 |     r
+                 |     g           | ng
+                 |     w           | ngw
+                 |     gh                   
+                 |     ghw                       ]; 
+
+define -Voice    [ p          | f        | mm    
+                 | t          | s        | nn     
+                 |              ll               
+                 |              rr               
+                 | k          | gg       | ngng  
+                 | kw         | wh       | ngngw
+                 | q          | ghh              
+                 | qw         | ghhw             
+                 |              h                ];              
+
+
+define Consonant [ %-Voice | %+Voice ];
+
+
+define Vocabulary [ {ahaay} | {anghi} | {qikmiq} | {sanghhwingngwaaq} ];
+push Vocabulary
+pairs
+
+define Tokenize [ [ Consonant.r | Vowel.r ] @-> EndOfText ... StartOfText ];
+define TokenizedVocab [ [ Vocabulary.r .o. Tokenize ].r ];
+push TokenizedVocab
+pairs
+
+#define WordInitial [ StartOfText -> 0 || .#. _ ];
+#define WordInitial [ StartOfText -> 0 || .#. _ ];
+
+
+define BeginCVC [ StartOfText -> StartOfCVC ||             _ Consonant EndOfText 
+                                                 StartOfText Vowel     EndOfText
+                                                 StartOfText Consonant EndOfText
+];
+
+define EndCVC   [ EndOfText   -> EndOfCVC   ||   StartOfCVC  Consonant EndOfText 
+                                                 StartOfText Vowel     EndOfText
+                                                 StartOfText Consonant _
+];
+
+define BeginCV [            StartOfText -> StartOfCV ||           _ Consonant EndOfText 
+                                                        StartOfText Vowel     EndOfText
+];
+
+define EndCV   [ EndOfText              -> EndOfCV || [ .#. | StartOfCV ] Consonant EndOfText 
+                                                              StartOfText Vowel     _  
+];
+
+define BeginVC [            StartOfText -> StartOfVC ||           _ Vowel EndOfText 
+                                                 StartOfText Consonant     EndOfText
+];
+
+define EndVC   [ EndOfText              -> EndOfVC || [ .#. | StartOfVC ] Vowel EndOfText 
+                                                 StartOfText Consonant     _  
+];
+
+define BeginV [            StartOfText -> StartOfV ||       .#. _ Vowel EndOfText
+];
+
+define EndV   [ EndOfText              -> EndOfV || .#. StartOfV Vowel   _  
+];
+
+
+#define Begin [ EndOfText StartOfText ->@ SyllableBoundary #|| _ Consonant EndOfText StartOfText Vowel EndOfText StartOfText Consonant EndOfText
+#                                                           || Consonant _ Consonant
+#];
+
+define Begin1 [ EndOfText StartOfText -> SyllableBoundary || Consonant _ Consonant ];
+define Begin2 [ StartOfText -> 0 || .#. _ ];
+define Begin3 [ EndOfText -> 0 || _ .#. ];
+
+
+define CleanTokens [ ?* ] ; # [ [ EndOfCVC | EndOfCV | EndOfVC | EndOfV ] [ StartOfCVC | StartOfCV | StartOfVC | StartOfV ] -> SyllableBoundary ];
+define MarkSyllables [ Begin1 .o. Begin2 .o. Begin3 ];   #[ BeginCVC ] ; # .o. EndCVC .o. BeginCV .o. EndCV .o. BeginVC .o. EndVC .o. BeginV .o. EndV .o. CleanTokens ];
+
+
+define SyllabizedVocab [ TokenizedVocab .o. MarkSyllables ].i;
+push SyllabizedVocab
+pairs
+
+define Devoice [                   
+                                    
+                  l <->   ll                      ,
+                  r <->   rr                      ,
+                       g   <-> gg , 
+                       w   <-> wh , 
+                       gh  <-> ghh                ,   
+                       ghw <-> ghhw              || _ SyllableBoundary %-Voice ] ,,
+
+                [                   m  <-> mm     ,
+                                    n  <-> nn     ,
+                  l <->   ll                      ,
+                  r <->   rr                      ,
+                       g   <-> gg , ng  <-> ngng  ,
+                       w   <-> wh , ngw <-> ngngw ,
+                       gh  <-> ghh                ,   
+                       ghw <-> ghhw              || %-Voice SyllableBoundary _ ];
+
+
+
+define UndoubledVocab [ SyllabizedVocab.i .o. Devoice ].i;
+push UndoubledVocab
+pairs
+
+#re [ UndoubledVocab.r .o. Tokenize ].r ;
+#pairs
+#push Tokenize
+#up anghi
+#down anghi
+
+#push Devoice
+#up qikmiq
+#down qikmiq
+
+
+
+# re %+Voice & %-Voice ;
+# test null 
+# pop 
+
+

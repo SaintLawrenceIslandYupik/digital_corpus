@@ -1,0 +1,125 @@
+Definitions
+   StartOfText = [ %[ ];
+   EndOfText   = [ %] ];
+   
+   ! Column 1: Labial
+   p     = {p} .x. "[p]";
+   v     = {v};
+   f     = {f};
+   m     = {m};
+   mm    = {mm};
+
+   ! Column 2: Alveolar
+   t     = {t};
+   z     = {z};  
+   y     = {y};
+   s     = {s};
+   n     = {n};
+   nn    = {nn};
+
+   ! Column 3: Lateral
+   l     = {l};
+   ll    = {ll};
+
+   ! Column 4: Rhotic
+   r     = {r};
+   rr    = {rr};
+
+   ! Column 5: Velar
+   k     = {k};
+   g     = {g};
+   gg    = {gg};
+   ng    = {ng};
+   ngng  = {ngng};
+
+   ! Column 6: Rounded velar
+   kw    = {kw};
+   w     = {w};
+   wh    = {wh};
+   ngw   = {ngw};
+   ngngw = {ngngw};
+
+   ! Column 7: Uvular
+   q     = {q};
+   gh    = {gh};
+   ghh   = {ghh};
+
+   ! Column 8: Rounded uvular
+   qw    = {qw};
+   ghw   = {ghw};
+   ghhw  = {ghhw};
+
+   ! Column 9: Glottal
+   h     = {h};
+
+   ! Vowels
+   e = {e};
+   i = {i};
+   a = {a};
+   u = {u};
+
+   ! Long vowels
+   ii = {ii};
+   aa = {aa};
+   uu = {uu};
+   
+
+   +Labial   = [ p  | v     | f  | m   | mm    ];
+   +Alveolar = [ t  | z | y | s  | n   | nn    ]; 
+   +Lateral  = [      l     | ll               ];
+   +Rhotic   = [      r     | rr               ];
+   +Velar    = [ k  | g     | gg | ng  | ngng  |
+                 kw | w     | wh | ngw | ngngw ];
+   +Uvular   = [ q  | gh    | ghh              |
+                 qw | ghw   | ghhw             ];
+   +Glottal  = [              h                ];              
+
+   +FullV    = [ i  | a  | u  ];                    
+   +LongV    = [ ii | aa | uu ];
+   Vowel     = [ e | %+FullV | %+LongV ];
+
+   Voice    = [     v           | m
+               |     z | y       | n
+               |     l
+               |     r
+               |     g           | ng
+               |     w           | ngw
+               |     gh                   
+               |     ghw                       ]; 
+
+   NoVoice   = [ p          | f        | mm    
+               | t          | s        | nn     
+               |              ll               
+               |              rr               
+               | k          | gg       | ngng  
+               | kw         | wh       | ngngw
+               | q          | ghh              
+               | qw         | ghhw             
+               |              h                ];              
+
+   Consonant = [ NoVoice | Voice ];
+ 
+   Tokenize  = [ [ Consonant.r | Vowel.r ] @-> EndOfText ... StartOfText ];
+
+   Devoice = [ l   <-> ll    ,
+               r   <-> rr    ,
+               g   <-> gg    , 
+               w   <-> wh    , 
+               gh  <-> ghh   ,   
+               ghw <-> ghhw  || _ EndOfText StartOfText NoVoice  
+               ,,
+               m   <-> mm    ,
+               n   <-> nn    ,
+               ng  <-> ngng  ,
+               ngw <-> ngngw ,
+               l   <-> ll    ,
+               r   <-> rr    ,
+               g   <-> gg    , 
+               w   <-> wh    , 
+               gh  <-> ghh   ,   
+               ghw <-> ghhw  || NoVoice EndOfText StartOfText _  ];
+
+
+LEXICON Root
+< [ [ [ {qikmiq}.r .o. Tokenize ].r ] .o. Devoice ].i >  # ;
+< [ [ [ {qigtiq}.r .o. Tokenize ].r ] .o. Devoice ].i >  # ;
