@@ -3,7 +3,7 @@ Definitions
    EndOfText   = [ %] ];
    
    ! Column 1: Labial
-   p     = {p} .x. "[p]";
+   p     = {p};
    v     = {v};
    f     = {f};
    m     = {m};
