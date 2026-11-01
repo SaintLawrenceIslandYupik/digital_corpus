@@ -152,4 +152,24 @@ define SyllablizedVocab [ [ TokenizedVocab .o. MarkSyllables ].r .o. Clean ];
 push SyllablizedVocab
 pairs
 
+define Devoice [ l   <-> ll    ,
+               r   <-> rr    ,
+               g   <-> gg    , 
+               w   <-> wh    , 
+               gh  <-> ghh   ,   
+               ghw <-> ghhw  || _ EndOfText SyllableBoundary StartOfText %-Voice  
+               ,,
+               m   <-> mm    ,
+               n   <-> nn    ,
+               ng  <-> ngng  ,
+               ngw <-> ngngw ,
+               l   <-> ll    ,
+               r   <-> rr    ,
+               g   <-> gg    , 
+               w   <-> wh    , 
+               gh  <-> ghh   ,   
+               ghw <-> ghhw  || %-Voice EndOfText SyllableBoundary StartOfText _  ];
 
+define UndoubledVocab [ SyllablizedVocab .o. Devoice  ].i; 
+push UndoubledVocab
+pairs
