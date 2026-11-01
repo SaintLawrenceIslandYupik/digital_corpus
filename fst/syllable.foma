@@ -3,18 +3,7 @@
 define StartOfText      [ %[ ];
 define EndOfText        [ %] ];
 
-define StartOfCVC  [ %< "1" ];
-define EndOfCVC    [ "1" %> ];
-
-define StartOfCV  [ %< "2" ];
-define EndOfCV    [ "2" %> ];
-
-define StartOfVC  [ %< "3" ];
-define EndOfVC    [ "3" %> ];
-
-define StartOfV  [ %< "4" ];
-define EndOfV    [ "4" %> ];
-
+define TokenBoundary    [ " " ];
 define SyllableBoundary [ "\u2027" ];
 
 # Column 1: Labial
@@ -125,102 +114,42 @@ push Vocabulary
 pairs
 
 define Tokenize [ [ Consonant.r | Vowel.r ] @-> EndOfText ... StartOfText ];
-define TokenizedVocab [ [ Vocabulary.r .o. Tokenize ].r ];
+define TokenizedVocab [ [ Vocabulary.r .o. Tokenize ] ];
 push TokenizedVocab
 pairs
 
-#define WordInitial [ StartOfText -> 0 || .#. _ ];
-#define WordInitial [ StartOfText -> 0 || .#. _ ];
-
-
-define BeginCVC [ StartOfText -> StartOfCVC ||             _ Consonant EndOfText 
-                                                 StartOfText Vowel     EndOfText
-                                                 StartOfText Consonant EndOfText
+define CVC [ 
+   StartOfText Consonant EndOfText 
+   StartOfText Vowel     EndOfText 
+   StartOfText Consonant EndOfText 
 ];
 
-define EndCVC   [ EndOfText   -> EndOfCVC   ||   StartOfCVC  Consonant EndOfText 
-                                                 StartOfText Vowel     EndOfText
-                                                 StartOfText Consonant _
+define CV [ 
+   StartOfText Consonant EndOfText 
+   StartOfText Vowel     EndOfText
 ];
 
-define BeginCV [            StartOfText -> StartOfCV ||           _ Consonant EndOfText 
-                                                        StartOfText Vowel     EndOfText
+define VC [ 
+   StartOfText Vowel     EndOfText 
+   StartOfText Consonant EndOfText 
 ];
 
-define EndCV   [ EndOfText              -> EndOfCV || [ .#. | StartOfCV ] Consonant EndOfText 
-                                                              StartOfText Vowel     _  
+define V [ 
+   StartOfText Vowel     EndOfText
 ];
 
-define BeginVC [            StartOfText -> StartOfVC ||           _ Vowel EndOfText 
-                                                 StartOfText Consonant     EndOfText
+define Syllable [ CVC | CV | VC .| V ];
+
+
+define MarkSyllables [ 
+               Syllable.r @-> %} ... %{ || _ # StartOfText Consonant EndOfText StartOfText Vowel ( EndOfText StartOfText Consonant ) _   
+                                                 # StartOfText _ ( Consonant StartOfText EndOfText ) Vowel StartOfText EndOfText Consonant StartOfText  
 ];
 
-define EndVC   [ EndOfText              -> EndOfVC || [ .#. | StartOfVC ] Vowel EndOfText 
-                                                 StartOfText Consonant     _  
-];
+define Clean [ %} %{ -> SyllableBoundary ,, %] %[ -> TokenBoundary ,, %} -> 0 || _ .#. ,, %{ -> 0 || .#. _ ];
 
-define BeginV [            StartOfText -> StartOfV ||       .#. _ Vowel EndOfText
-];
-
-define EndV   [ EndOfText              -> EndOfV || .#. StartOfV Vowel   _  
-];
-
-
-#define Begin [ EndOfText StartOfText ->@ SyllableBoundary #|| _ Consonant EndOfText StartOfText Vowel EndOfText StartOfText Consonant EndOfText
-#                                                           || Consonant _ Consonant
-#];
-
-define Begin1 [ EndOfText StartOfText -> SyllableBoundary || Consonant _ Consonant ];
-define Begin2 [ StartOfText -> 0 || .#. _ ];
-define Begin3 [ EndOfText -> 0 || _ .#. ];
-
-
-define CleanTokens [ ?* ] ; # [ [ EndOfCVC | EndOfCV | EndOfVC | EndOfV ] [ StartOfCVC | StartOfCV | StartOfVC | StartOfV ] -> SyllableBoundary ];
-define MarkSyllables [ Begin1 .o. Begin2 .o. Begin3 ];   #[ BeginCVC ] ; # .o. EndCVC .o. BeginCV .o. EndCV .o. BeginVC .o. EndVC .o. BeginV .o. EndV .o. CleanTokens ];
-
-
-define SyllabizedVocab [ TokenizedVocab .o. MarkSyllables ].i;
-push SyllabizedVocab
+define SyllablizedVocab [ [ TokenizedVocab .o. MarkSyllables ].r .o. Clean ];
+push SyllablizedVocab
 pairs
-
-define Devoice [                   
-                                    
-                  l <->   ll                      ,
-                  r <->   rr                      ,
-                       g   <-> gg , 
-                       w   <-> wh , 
-                       gh  <-> ghh                ,   
-                       ghw <-> ghhw              || _ SyllableBoundary %-Voice ] ,,
-
-                [                   m  <-> mm     ,
-                                    n  <-> nn     ,
-                  l <->   ll                      ,
-                  r <->   rr                      ,
-                       g   <-> gg , ng  <-> ngng  ,
-                       w   <-> wh , ngw <-> ngngw ,
-                       gh  <-> ghh                ,   
-                       ghw <-> ghhw              || %-Voice SyllableBoundary _ ];
-
-
-
-define UndoubledVocab [ SyllabizedVocab.i .o. Devoice ].i;
-push UndoubledVocab
-pairs
-
-#re [ UndoubledVocab.r .o. Tokenize ].r ;
-#pairs
-#push Tokenize
-#up anghi
-#down anghi
-
-#push Devoice
-#up qikmiq
-#down qikmiq
-
-
-
-# re %+Voice & %-Voice ;
-# test null 
-# pop 
 
 
