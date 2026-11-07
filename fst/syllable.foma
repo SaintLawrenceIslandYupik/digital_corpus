@@ -1,10 +1,13 @@
 
 
-define StartOfText      [ %[ ];
-define EndOfText        [ %] ];
+define TokenStart       [ "\u005B" ];  # LEFT SQUARE BRACKET
+define TokenEnd         [ "\u005D" ];  # RIGHT SQUARE BRACKET
+define TokenBoundary    [ "\u0020" ];  # SPACE
 
-define TokenBoundary    [ " " ];
-define SyllableBoundary [ "\u2027" ];
+define SyllableStart    [ "\u007B" ];  # LEFT CURLY BRACKET
+define SyllableEnd      [ "\u007D" ];  # RIGHT CURLY BRACKET
+define SyllableBoundary [ "\u2027" ];  # HYPHENATION POINTs
+
 
 # Column 1: Labial
 define p     {p};
@@ -109,55 +112,65 @@ define -Voice    [ p          | f        | mm
 define Consonant [ %-Voice | %+Voice ];
 
 
-define Vocabulary [ {ahaay} | {anghi} | {qikmiq} | {sanghhwingngwaaq} ];
-push Vocabulary
+define RawVocabulary [ {ahaay} | {anghi} | {qikmiq} | {sanghhwingngwaaq} ];
+push RawVocabulary
 pairs
 
-define Tokenize [ [ Consonant.r | Vowel.r ] @-> EndOfText ... StartOfText ];
-define TokenizedVocab [ [ Vocabulary.r .o. Tokenize ] ];
-push TokenizedVocab
+
+define Token [ Consonant | Vowel ];
+
+define ReversedToken [ Token.r ];
+
+define Tokenize [ ReversedToken @-> TokenEnd ... TokenStart ];
+
+define ReversedTokenizedVocab [ [ RawVocabulary.r .o. Tokenize ] ];
+push ReversedTokenizedVocab
 pairs
 
 define CVC [ 
-   StartOfText Consonant EndOfText 
-   StartOfText Vowel     EndOfText 
-   StartOfText Consonant EndOfText 
+   TokenStart Consonant TokenEnd 
+   TokenStart Vowel     TokenEnd 
+   TokenStart Consonant TokenEnd 
 ];
 
 define CV [ 
-   StartOfText Consonant EndOfText 
-   StartOfText Vowel     EndOfText
+   TokenStart Consonant TokenEnd 
+   TokenStart Vowel     TokenEnd
 ];
 
 define VC [ 
-   StartOfText Vowel     EndOfText 
-   StartOfText Consonant EndOfText 
+   TokenStart Vowel     TokenEnd 
+   TokenStart Consonant TokenEnd 
 ];
 
 define V [ 
-   StartOfText Vowel     EndOfText
+   TokenStart Vowel     TokenEnd
 ];
 
-define Syllable [ CVC | CV | VC .| V ];
+define Syllable [ CVC | CV | VC | V ];
 
 
-define MarkSyllables [ 
-               Syllable.r @-> %} ... %{ || _ # StartOfText Consonant EndOfText StartOfText Vowel ( EndOfText StartOfText Consonant ) _   
-                                                 # StartOfText _ ( Consonant StartOfText EndOfText ) Vowel StartOfText EndOfText Consonant StartOfText  
-];
+define MarkSyllables [ Syllable.r @-> SyllableEnd ... SyllableStart ];
 
-define Clean [ %} %{ -> SyllableBoundary ,, %] %[ -> TokenBoundary ,, %} -> 0 || _ .#. ,, %{ -> 0 || .#. _ ];
+define CleanSyllables [
+               SyllableEnd SyllableStart -> SyllableBoundary              ,, 
+                  TokenEnd    TokenStart -> TokenBoundary                 ,, 
+               SyllableEnd               -> 0                ||     _ .#. ,, 
+                           SyllableStart -> 0                || .#. _      ];
 
-define SyllablizedVocab [ [ TokenizedVocab .o. MarkSyllables ].r .o. Clean ];
-push SyllablizedVocab
+
+define ReversedSyllabizedVocab [ ReversedTokenizedVocab    .o. MarkSyllables  ];
+define         SyllabizedVocab [ ReversedSyllabizedVocab.r .o. CleanSyllables ];
+push SyllabizedVocab
 pairs
 
-define Devoice [ l   <-> ll    ,
+define Devoice [ 
+               l   <-> ll    ,
                r   <-> rr    ,
                g   <-> gg    , 
                w   <-> wh    , 
                gh  <-> ghh   ,   
-               ghw <-> ghhw  || _ EndOfText SyllableBoundary StartOfText %-Voice  
+               ghw <-> ghhw  || _ TokenEnd SyllableBoundary TokenStart %-Voice  
                ,,
                m   <-> mm    ,
                n   <-> nn    ,
@@ -168,8 +181,8 @@ define Devoice [ l   <-> ll    ,
                g   <-> gg    , 
                w   <-> wh    , 
                gh  <-> ghh   ,   
-               ghw <-> ghhw  || %-Voice EndOfText SyllableBoundary StartOfText _  ];
+               ghw <-> ghhw  || %-Voice TokenEnd SyllableBoundary TokenStart _  ];
 
-define UndoubledVocab [ SyllablizedVocab .o. Devoice  ].i; 
+define UndoubledVocab [ SyllabizedVocab .o. Devoice  ].i; 
 push UndoubledVocab
 pairs
